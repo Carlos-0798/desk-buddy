@@ -1,0 +1,176 @@
+{
+  "schema": "desk-r6-public-rebuild/1",
+  "checked_at_utc": "2026-10-05T21:12:09.904171+00:00",
+  "status": "PASS_SOURCE_REBUILD_AND_HASH_COMPARISON",
+  "scope": "Rebuild project-owned CAD with recorded dependencies; compare archived final R6 STL hashes. No slicer, printing, physical fitting, or hardware operation.",
+  "python_version": "3.12.10",
+  "dependency_versions": {
+    "numpy": "2.5.3",
+    "manifold3d": "3.5.4",
+    "trimesh": "5.1.1",
+    "shapely": "2.1.2",
+    "networkx": "3.7",
+    "lxml": "6.1.3"
+  },
+  "portable_command": "python cad/source/build_enclosure.py --output-dir <chosen-output-directory>",
+  "source_plumbing_changes": "Removed original workspace package lookup; output defaults to cad/generated and accepts --output-dir; parameters load relative to the script. Geometry operations and final parameters retained.",
+  "stl_comparisons": [
+    {
+      "file": "stl/01_tolerance_coupon.stl",
+      "quantity": 1,
+      "bounds_mm": [
+        100.0,
+        52.0,
+        2.4
+      ],
+      "rebuild_sha256": "d45e1bb6ac87b834ad68d36825a23865558a5fb96a349d0c102cccc4f5d19439",
+      "archived_r6_sha256": "d45e1bb6ac87b834ad68d36825a23865558a5fb96a349d0c102cccc4f5d19439",
+      "exact_match": true,
+      "included_prebuilt": false
+    },
+    {
+      "file": "stl/02_nut_coupon.stl",
+      "quantity": 1,
+      "bounds_mm": [
+        68.0,
+        16.0,
+        11.6
+      ],
+      "rebuild_sha256": "d0dfce96a4251eb4e300c6ee8fabda9fb8007f1d7fe272b947496e93728f0819",
+      "archived_r6_sha256": "d0dfce96a4251eb4e300c6ee8fabda9fb8007f1d7fe272b947496e93728f0819",
+      "exact_match": true,
+      "included_prebuilt": false
+    },
+    {
+      "file": "stl/03_tft_fit_coupon.stl",
+      "quantity": 1,
+      "bounds_mm": [
+        71.6,
+        59.6,
+        2.4
+      ],
+      "rebuild_sha256": "2676366baa2bd997d247e100e0076bd8687c98517d45a355067e81b20aa22ae5",
+      "archived_r6_sha256": "2676366baa2bd997d247e100e0076bd8687c98517d45a355067e81b20aa22ae5",
+      "exact_match": true,
+      "included_prebuilt": false
+    },
+    {
+      "file": "stl/04_input_fit_coupon.stl",
+      "quantity": 1,
+      "bounds_mm": [
+        80.0,
+        54.0,
+        2.4
+      ],
+      "rebuild_sha256": "52a5e9476111d7f1f841a4ac757f9bdab015c5c8d9914fe78a5ea7f69488b02f",
+      "archived_r6_sha256": "52a5e9476111d7f1f841a4ac757f9bdab015c5c8d9914fe78a5ea7f69488b02f",
+      "exact_match": true,
+      "included_prebuilt": false
+    },
+    {
+      "file": "stl/10_base.stl",
+      "quantity": 1,
+      "bounds_mm": [
+        160.0,
+        166.0,
+        60.0
+      ],
+      "rebuild_sha256": "660d9c4115eadf1277b1ebd1489b7ec3008027553dcc5f627448a0f2dc0138b7",
+      "archived_r6_sha256": "660d9c4115eadf1277b1ebd1489b7ec3008027553dcc5f627448a0f2dc0138b7",
+      "exact_match": true,
+      "included_prebuilt": true
+    },
+    {
+      "file": "stl/11_lid.stl",
+      "quantity": 1,
+      "bounds_mm": [
+        160.0,
+        166.0,
+        5.4
+      ],
+      "rebuild_sha256": "78c1766388b38d4f276e0cde5196ec2ba0dccd290d951508aaa69136a41a8e98",
+      "archived_r6_sha256": "78c1766388b38d4f276e0cde5196ec2ba0dccd290d951508aaa69136a41a8e98",
+      "exact_match": true,
+      "included_prebuilt": true
+    },
+    {
+      "file": "stl/12_tft_spacer_3mm.stl",
+      "quantity": 4,
+      "bounds_mm": [
+        4.4,
+        4.4,
+        3.0
+      ],
+      "rebuild_sha256": "bb0686c66fe85aebbe287699ad2cc098d65c260f55f00e25ec17f9371d291b17",
+      "archived_r6_sha256": "bb0686c66fe85aebbe287699ad2cc098d65c260f55f00e25ec17f9371d291b17",
+      "exact_match": true,
+      "included_prebuilt": true
+    }
+  ],
+  "input_checks": {
+    "r6_parameters_exact_copy": true,
+    "mount_rows": 26,
+    "mount_csv_rebuild_exact": true,
+    "r4_solder_rows": 42,
+    "unique_solder_ids": 42,
+    "routing_image_exact_copy": true,
+    "python_syntax_valid": true,
+    "text_files_checked_for_private_absolute_paths": 7,
+    "private_absolute_paths_found": false,
+    "local_document_links_checked": 15,
+    "local_document_links_valid": true
+  },
+  "historical_design_review": {
+    "revision": "R6",
+    "status": "STATIC_CHECKS_PASS_WITH_PHYSICAL_FIT_HOLDS",
+    "source_record_sha256": "255cbce7a86f4bdb88aae2de8e1954c473ca54b22a8d5a3b879fcacd89ebfd35",
+    "static_check_groups_passed": 9,
+    "static_check_groups_total": 9,
+    "not_rerun_as_part_of_this_check": true,
+    "remaining_ph3_hex_post_proxy_intersection_mm3_approx": 0.877
+  },
+  "physical_status": {
+    "printed": false,
+    "fitted": false,
+    "on_site_sliced": false,
+    "closed_enclosure_regression": false
+  },
+  "packaged_cad_files": [
+    {
+      "path": "README.md",
+      "sha256": "fd797ee4851a95193c94250fe5f2ba8df95d8b407ad0fc5a6590c21d27b49b45"
+    },
+    {
+      "path": "reference-r4/solder-42-points.csv",
+      "sha256": "5e463b1df31a261b55b69d22e27aad219f7f58eb36d8e6615e05277f20fba558"
+    },
+    {
+      "path": "source/build_enclosure.py",
+      "sha256": "0a24ce4cf48109769d7dbe3cd555d6fd1bf14dee07d2382a97859ecca044fe2c"
+    },
+    {
+      "path": "source/mount-coordinates-mm.csv",
+      "sha256": "cbbe5109c112afa71650b7a713b5b2889c59b193e233dc90b364f3e8947cf297"
+    },
+    {
+      "path": "source/parameters.json",
+      "sha256": "ff79e906c6fb7658899d940faf531484b3a164a26d36c2c3ecc6c7eb7de2be9d"
+    },
+    {
+      "path": "source/requirements.txt",
+      "sha256": "92686962d0fa5bf177fe2bd355d93db3ac3980fdf3bcde199a619be6da544079"
+    },
+    {
+      "path": "stl/10_base.stl",
+      "sha256": "660d9c4115eadf1277b1ebd1489b7ec3008027553dcc5f627448a0f2dc0138b7"
+    },
+    {
+      "path": "stl/11_lid.stl",
+      "sha256": "78c1766388b38d4f276e0cde5196ec2ba0dccd290d951508aaa69136a41a8e98"
+    },
+    {
+      "path": "stl/12_tft_spacer_3mm.stl",
+      "sha256": "bb0686c66fe85aebbe287699ad2cc098d65c260f55f00e25ec17f9371d291b17"
+    }
+  ]
+}

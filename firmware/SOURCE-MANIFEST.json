@@ -1,0 +1,135 @@
+{
+  "schema": 1,
+  "build": "DESK_BUDDY_R3D9_20261005",
+  "scope": "Source copied byte-identically from the frozen build; no device-specific filesystem records",
+  "files": [
+    {
+      "path": "firmware/DeskController/AnimationPreview.h",
+      "sha256": "a7be6ffb753cd0d35f8d21085857e6205a52efaf994c3825e7302e8e40bed963"
+    },
+    {
+      "path": "firmware/DeskController/AppConfig.h",
+      "sha256": "6f1afe5113a03ec4ba680ad15d4d22657419cebc3768e99a858f07290578827b"
+    },
+    {
+      "path": "firmware/DeskController/BatteryGauge.h",
+      "sha256": "3499ec507c76144316fad14c17ef13261c7ff008a63fcb5a0f02e4e717ca27b0"
+    },
+    {
+      "path": "firmware/DeskController/BleManagement.cpp",
+      "sha256": "ed5dd2a6c7ad32cdcbcf784b3217ef6f50e13947009169da73d54b98339e85de"
+    },
+    {
+      "path": "firmware/DeskController/BleManagement.h",
+      "sha256": "7af7876bb831d9e28f6e2e79bbe88aac31b36fddb0cf8b0a62e343bf27b4b351"
+    },
+    {
+      "path": "firmware/DeskController/CalibrationStore.cpp",
+      "sha256": "f5959ef7a1a936edb689d76eee944e3d6ffb2c2b461a615c388d0a702b59d581"
+    },
+    {
+      "path": "firmware/DeskController/CalibrationStore.h",
+      "sha256": "8c5ad013b1607679d80d49af4689f25cf90be30291ae9dd98f2dcb679e7a06e1"
+    },
+    {
+      "path": "firmware/DeskController/ControllerCore.h",
+      "sha256": "89332025ebd0e5795c178892275a13349dd5be5054a47e1ff5a1895b69fcbdd9"
+    },
+    {
+      "path": "firmware/DeskController/DeskController.ino",
+      "sha256": "a1693256cf648ced85394f73f223d3064eafb84962538f7b0ef43b632af959a8"
+    },
+    {
+      "path": "firmware/DeskController/DeskHid.cpp",
+      "sha256": "935754b5f4f1876bac453756d212fbf37b13c0c1ee79e791b22aa59c78e95b49"
+    },
+    {
+      "path": "firmware/DeskController/DeskHid.h",
+      "sha256": "da12edcb1057aebbe90918bd66c2d8580a9e61c58b84e69919a913e65d118d60"
+    },
+    {
+      "path": "firmware/DeskController/DeskUi.cpp",
+      "sha256": "0cd40eca6950d29b1869c4f6bbb390ae57bcedcb4abc5b32cf6c619d388fba28"
+    },
+    {
+      "path": "firmware/DeskController/DeskUi.h",
+      "sha256": "334ef0b6f1d9c3fc45a46ff5045f80dbb6cc5df3344f31842b18721836342ecd"
+    },
+    {
+      "path": "firmware/DeskController/HubConfig.h",
+      "sha256": "b9fc2a0b93a639e8187345856bb14a04fcd1810d8c9c97edad6dfdfeba8e6782"
+    },
+    {
+      "path": "firmware/DeskController/HubConfigStore.cpp",
+      "sha256": "3a77bb8ed83beab05c529ac35a77b9ccb979f60fb26977db902e0d960db8a6e9"
+    },
+    {
+      "path": "firmware/DeskController/HubConfigStore.h",
+      "sha256": "328ca696ac979a12d1a0293d76ac5eada42ab0a34a69ac11f06d5102c8d39fe5"
+    },
+    {
+      "path": "firmware/DeskController/HubProtocol.h",
+      "sha256": "d5a9956e7944ccea6b7bd62bde4d2bb99dedd9ca8b99b6e0c39db8d60f51544d"
+    },
+    {
+      "path": "firmware/DeskController/ManagementCore.h",
+      "sha256": "119716ae0ce5faa6223825321c7a3d16881edbd932736711b3afb5239d94b7d3"
+    },
+    {
+      "path": "firmware/DeskController/PetState.h",
+      "sha256": "8d0244d2f11b34867161f01af3d730b8f89d1d9af9a390333debcb56aa83e576"
+    },
+    {
+      "path": "firmware/DeskController/PortraitArt.cpp",
+      "sha256": "a8b1f28cd6166016ebee14d3c09155fcd7252253087b0806ff3dc9f149c61c9a"
+    },
+    {
+      "path": "firmware/DeskController/PortraitArt.h",
+      "sha256": "56f55db2e03b0c32b5dc435fb27bff9546f2ced51e719106fedeb5e275b76b94"
+    },
+    {
+      "path": "firmware/DeskController/RebootGuard.cpp",
+      "sha256": "7ced30c8acad5cbb82c39d8fed33b08f3e71b8ce099ddf6126570f2e7c9efb27"
+    },
+    {
+      "path": "firmware/DeskController/RebootGuard.h",
+      "sha256": "c3f3b0c6bbbe7854c3f7e40f9041166163447ee5f6f52cfe80c3effd02295f1b"
+    },
+    {
+      "path": "firmware/DeskController/SpriteArt.cpp",
+      "sha256": "7b690e404c2cb5d280b1c8361dfed3826dbca8a858ae45c669fd0ed4a2d4cb73"
+    },
+    {
+      "path": "firmware/DeskController/SpriteArt.h",
+      "sha256": "912342593328a431e794912f217689e4c58fec3a22501014c92be79f410423ef"
+    },
+    {
+      "path": "firmware/DeskController/UiFont.cpp",
+      "sha256": "b654c4fe634e9e47fa71a6f5d3c02e78bbd7ed61649146495c1cb31da90c6eb3"
+    },
+    {
+      "path": "firmware/DeskController/UiFont.h",
+      "sha256": "b7eb9b893e4ff5ac67e452f0e737f5351d426b45bec9af5a7b4b76f94d411017"
+    },
+    {
+      "path": "firmware/DeskController/UiPreferencesStore.cpp",
+      "sha256": "7b73c8e86880ec85de6eb531f9b251059bcc18cdfbced46ce57692998084986b"
+    },
+    {
+      "path": "firmware/DeskController/UiPreferencesStore.h",
+      "sha256": "d8fd81d9be96ba37b4f102b6c872ee9a5d030071ae7619f47c93df69ef2f5634"
+    },
+    {
+      "path": "firmware/DeskController/UiText.h",
+      "sha256": "5bcc4509fbdc398debc9107c9f66e4a9f8b3b8eba9540ec8214d83d70e29bd34"
+    },
+    {
+      "path": "firmware/DeskController/UsbConsole.cpp",
+      "sha256": "151f7275edb51ca703f2e66fdc62d160de3eecd520c3ed4b402e60d98b4bf2d7"
+    },
+    {
+      "path": "firmware/DeskController/UsbConsole.h",
+      "sha256": "e4bfa0df0da136d2c5d417abb71f2df73b769e6dd82331c1b475cff8041209be"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+HISTORICAL HOST-ONLY CHECKPOINT — not the Hub 1.7.1 result.
+Local machine paths and generated test IDs are redacted where present.
+Current release results: see docs/validation.md and evidence/stage-validation.json.
+
+PASS 224-byte codec, canonical defaults, independent profile arrays
+PASS strict flags, names, reserved bytes, supported actions
+PASS 96 appearance pairs across three home modes preserve wire and JSON IDs
+PASS strict HELLO capability counts and independent 4/4/1 defaults
+PASS bounded byte framing and overflow recovery
+PASS request/reply grammar and legacy typed status
+PASS strict public JSON, checksum, atomic replace and failed write
+PASS HELLO/GET/STATUS, preview/save/readback/revert/select
+PASS ID matching, interleaved status, timeout, late ACK and cancellation
+PASS total request deadline includes blocked transport writes
+PASS disconnect cancels active/queued work and reconnect never replays
+PASS revision conflict, malformed ACK, bad readback and refused output
+PASS legacy status/explicit control without invented bank capabilities
+PASS unsupported protocol and malformed capabilities fail closed
+PASS old-peer whole-bank appearance guard and capability reread on reconnect
+PASS animation capability, strict actions and coherent bounded telemetry
+PASS animation old-peer guard, parameters and capability reread
+PASS temporary animation ACK/status, expiry, cancellation and no bank writes
+PASS animation errors, malformed readback, deadline and disconnect do not replay
+PASS BLE capability, management grant/lease grammar and USB-only permission
+PASS GATT 20-byte request fragments and bounded 4096-byte notification lines
+PASS GATT cancellation, timeout, disconnect and stale generations fail closed
+PASS full Core protocol over fake GATT, long SAVE, readback and LOCKED
+PASS BLE self-revoke ACK and CCCD failure paths never imply unconfirmed revocation
+PASS one cached service fallback, strict UUID selection, shared deadline and reference cleanup
+PASS serial close deadline retains resource ownership until blocked open/dispose really exits
+FAIL DeskBuddy.Core.WorkerClosePendingException: TEST_CORE_<synthetic-id> is still closing. The driver has not released it; no new connection will be opened. Wait, or exit Hub before retrying.
+ ---> System.TimeoutException: The operation has timed out.
+   at DeskBuddy.Core.SerialWorkerLifetime.WaitForExitAsync(Task task) in hub\DeskBuddy.Core\SerialWorkerLifetime.cs:line 87
+   --- End of inner exception stack trace ---
+   at DeskBuddy.Core.SerialWorkerLifetime.WaitForExitAsync(Task task) in hub\DeskBuddy.Core\SerialWorkerLifetime.cs:line 88
+   at DeskBuddy.Core.SerialWorkerLifetime.CloseAsync() in hub\DeskBuddy.Core\SerialWorkerLifetime.cs:line 82
+   at DeskBuddy.Core.HubClient.DisconnectAsync() in hub\DeskBuddy.Core\HubClient.cs:line 144
+   at DeskBuddy.Core.HubClient.DisposeAsync() in hub\DeskBuddy.Core\HubClient.cs:line 494
+   at Program.SerialConnectCleanup() in hub\DeskBuddy.Core.Tests\SerialLifecycleTests.cs:line 120
+   at Program.Group(String name, Func`1 action) in hub\DeskBuddy.Core.Tests\Program.cs:line 16
+   at Program.Main(String[] args) in hub\DeskBuddy.Core.Tests\Program.cs:line 48

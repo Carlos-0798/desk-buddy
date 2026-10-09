@@ -1,0 +1,52 @@
+{
+  "width": 160.0,
+  "depth": 166.0,
+  "body_height": 60.0,
+  "floor": 2.8,
+  "wall": 3.0,
+  "lid": 2.4,
+  "corner_radius": 8.0,
+  "screw_clearance": 2.9,
+  "nut_slot_width": 5.4,
+  "tft_center": [
+    -30.0,
+    50.0
+  ],
+  "encoder_center": [
+    48.0,
+    48.0
+  ],
+  "perma_center": [
+    27.0,
+    -24.0
+  ],
+  "battery_center": [
+    -47.0,
+    28.0
+  ],
+  "battery_bay": [
+    38.0,
+    68.0
+  ],
+  "perma_post": 10.0,
+  "encoder_standoff": 8.0,
+  "button_standoff": 8.0,
+  "tft_spacer": 3.0,
+  "button_hole": 14.0,
+  "encoder_hole": 22.0,
+  "tft_window": [
+    54.0,
+    40.0
+  ],
+  "tft_recess": [
+    62.0,
+    44.0,
+    1.0
+  ],
+  "service_center_x": -13.236,
+  "service_width": 36.0,
+  "service_bottom": 14.0,
+  "left_service_y": 47.0,
+  "left_service_width": 34.0,
+  "left_service_bottom": 38.0
+}

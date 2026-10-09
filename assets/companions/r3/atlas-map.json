@@ -1,0 +1,25 @@
+{
+  "schema_version": 1,
+  "asset_kind": "dedicated_portrait",
+  "alpha_threshold": 128,
+  "padding": 1,
+  "atlases": [
+    {"file":"woodland-portraits-original.png","characters":[2,8,4,9],"frames":["idle","blink","happy"],"required":true},
+    {"file":"fantasy-portraits-original.png","characters":[3,5,6,7],"frames":["idle","blink","happy"],"required":true},
+    {"file":"classic-portraits-v2-original.png","characters":[0,1,10,11],"frames":["idle","blink","happy"],"required":true}
+  ],
+  "characters": [
+    {"id":0,"name":"Pixel","slug":"pixel"},
+    {"id":1,"name":"Round","slug":"round"},
+    {"id":2,"name":"Cat","slug":"cat"},
+    {"id":3,"name":"Robot","slug":"robot"},
+    {"id":4,"name":"Bunny","slug":"bunny"},
+    {"id":5,"name":"Ghost","slug":"ghost"},
+    {"id":6,"name":"Mochi","slug":"mochi"},
+    {"id":7,"name":"Orbit","slug":"orbit"},
+    {"id":8,"name":"Fox","slug":"fox"},
+    {"id":9,"name":"Panda","slug":"panda"},
+    {"id":10,"name":"Sleepy","slug":"sleepy"},
+    {"id":11,"name":"Wink","slug":"wink"}
+  ]
+}

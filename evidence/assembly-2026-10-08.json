@@ -1,0 +1,106 @@
+{
+  "recorded": "2026-10-08",
+  "kind": "Builder-reported physical assembly and supplied still photographs",
+  "baseline": {
+    "firmware": "R3H D11",
+    "hub": "1.7.1",
+    "cad": "R6 original print geometry unchanged"
+  },
+  "assembly": {
+    "printed": true,
+    "assembled": true,
+    "lid_closed": true,
+    "powered_front_photograph": true,
+    "new_functional_test_run": false
+  },
+  "front_view": {
+    "orientation": "Display text upright; encoder below left column, display below right column",
+    "left_top_to_bottom": [
+      {
+        "input": "K6",
+        "color": "blue"
+      },
+      {
+        "input": "K5",
+        "color": "black"
+      },
+      {
+        "input": "K4",
+        "color": "red"
+      }
+    ],
+    "right_top_to_bottom": [
+      {
+        "input": "K3",
+        "color": "yellow"
+      },
+      {
+        "input": "K2",
+        "color": "white"
+      },
+      {
+        "input": "K1",
+        "color": "blue"
+      }
+    ],
+    "identity_source": "Builder-reported installed input order",
+    "color_source": "Front photograph",
+    "firmware_remap_performed": false
+  },
+  "usb_access": {
+    "observation": "Actual nRF52840 board is on the right of the TFT arrangement, contrary to the left-side access assumption; original opening did not expose USB connector.",
+    "workaround": "Builder rotated display assembly 180 degrees, retained an internally connected USB cable and routed its free end through the battery-side opening. Routine disconnect is at the computer end.",
+    "workaround_source": "Builder report",
+    "final_internal_photo_available": false,
+    "strain_relief_verified": false
+  },
+  "photos": [
+    {
+      "path": "assets/assembly-2026-10-08/01-assembled-front.jpg",
+      "sha256": "f25120d9f492e0c51e14dd195bfe33456d425b0a36049bbceb0adf1d0fdeb991",
+      "bytes": 547388,
+      "original_bytes_preserved": true,
+      "pixel_edits": false,
+      "configuration": "Closed assembled front"
+    },
+    {
+      "path": "assets/assembly-2026-10-08/02-upper-internals-before-usb-reroute.jpg",
+      "sha256": "c17b7561b29059a1bcdfe098aba9f12ae9da74f0d101f6eb81539333caac50fa",
+      "bytes": 268172,
+      "original_bytes_preserved": true,
+      "pixel_edits": false,
+      "configuration": "Earlier internal assembly before final display rotation and USB reroute"
+    },
+    {
+      "path": "assets/assembly-2026-10-08/03-lower-battery-perma.jpg",
+      "sha256": "e8c2f6dfe41998120a72a816f05cc749eca71997439676a5951fca3678e59935",
+      "bytes": 325004,
+      "original_bytes_preserved": true,
+      "pixel_edits": false,
+      "configuration": "Earlier internal assembly before final display rotation and USB reroute"
+    },
+    {
+      "path": "assets/assembly-2026-10-08/04-upper-internals-detail-before-usb-reroute.jpg",
+      "sha256": "a9b05c6912c476d924d830992de7a4c8caea7e4c493224e8e785ea26b54b3af3",
+      "bytes": 243186,
+      "original_bytes_preserved": true,
+      "pixel_edits": false,
+      "configuration": "Earlier internal assembly before final display rotation and USB reroute"
+    },
+    {
+      "path": "assets/assembly-2026-10-08/05-open-enclosure-before-usb-reroute.jpg",
+      "sha256": "e1b6ce40563cb3e031048f7bc45e6ad2d0fd4e75e4c60485cd6459c19ecba979",
+      "bytes": 334960,
+      "original_bytes_preserved": true,
+      "pixel_edits": false,
+      "configuration": "Earlier internal assembly before final display rotation and USB reroute"
+    }
+  ],
+  "new_claims_not_made": [
+    "Closed-case HID, touch, power-transition or BLE acceptance",
+    "Cable strain relief, pull strength or long-term connector reliability",
+    "Measured physical case dimensions or complete mechanical clearances",
+    "Charging, battery endurance or production qualification"
+  ],
+  "historical_evidence": "summary.json remains the unchanged October 5 release snapshot; this record adds an assembly milestone only."
+}

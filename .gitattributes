@@ -1,0 +1,8 @@
+# Preserve the exact, hashed Windows source bytes; no automatic line-ending conversion.
+* -text whitespace=cr-at-eol
+
+# PDFs and photographs must stay byte-identical across checkout and publication.
+*.pdf binary
+*.jpg binary
+*.jpeg binary
+*.png binary

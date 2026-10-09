@@ -1,0 +1,132 @@
+{
+  "schema": 2,
+  "date": "2026-10-05",
+  "status": "CANDIDATE_SOURCE_TARGET_AND_HOST_VALIDATION_PASS",
+  "firmware_build": "DESK_BUDDY_R3H_20261005",
+  "source_identity": {
+    "firmware_library_files": 49,
+    "firmware_all_match_frozen_source": true,
+    "hub_allowlist_files": 65,
+    "hub_executable_sources_match_frozen_source": true,
+    "packaging_adaptations": "Four history/documentation files labeled/sanitized; see hub/SOURCE-MANIFEST.json"
+  },
+  "target": {
+    "compile_exit_code": 0,
+    "flash_bytes": 545088,
+    "static_ram_bytes": 33716,
+    "hex_sha256": "3c5a91cf43779c7a88e8e8f9f8940d50bb3f1d9a19bde44aea19b79214c3bf7e",
+    "matches_delivered_r3h": true,
+    "backlight_pin": 11,
+    "bounded_wire_selected": true,
+    "uploaded": false
+  },
+  "selected_cpp": {
+    "fixtures_compiled": 4,
+    "native_executed": 0,
+    "result": "COMPILE_ONLY_PASS"
+  },
+  "display_state": {
+    "result": "PASS",
+    "method": "Compiler-evaluated actual State, synthetic timestamps",
+    "native_execution": false,
+    "wall_clock_long_interval_test": false
+  },
+  "photos": {
+    "count": 3,
+    "original_bytes_preserved": true,
+    "generated_or_repainted": false
+  },
+  "privacy_scan": {
+    "text_paths_identifiers_credentials_patterns": "No matches in candidate source/text allowlist",
+    "gps_property_in_new_photos": "No GPS property observed with System.Drawing; files preserved unchanged"
+  },
+  "hardware_access": false,
+  "git_commit": false,
+  "git_push": false,
+  "history": {
+    "r2": {
+      "schema": 1,
+      "date": "2026-10-05",
+      "status": "STAGED_SOURCE_BUILD_AND_MANAGED_HOST_CHECKS_PASS",
+      "firmware_build": "DESK_BUDDY_R3D9_20261005",
+      "hub_version": "1.4.0",
+      "source_identity": {
+        "firmware_files": 32,
+        "hub_files": 33,
+        "all_match_frozen_source": true
+      },
+      "target": {
+        "compile_exit_code": 0,
+        "flash_bytes": 524144,
+        "static_ram_bytes": 33500,
+        "hex_sha256": "1b404d1b07a229a6faf8bedc95bd55881d163de9476101cbee4f0618e54e9e77",
+        "matches_frozen_r3d9": true,
+        "uploaded": false
+      },
+      "core": {
+        "exit_code": 0,
+        "groups": 29,
+        "assertions": 1643,
+        "failures": 0,
+        "hardware_access": false
+      },
+      "hub": {
+        "publish_exit_code": 0,
+        "exe_sha256": "a49b6e685227b026b3618abb4087c7a4835f21bee7710617dbc8e57951bd0cce",
+        "render_exit_code": 0,
+        "render_checks": 418,
+        "rendered_images": 605,
+        "render_passed": true,
+        "hardware_access": false
+      },
+      "firmware_host": {
+        "status": "COMPILE_ONLY_PASS",
+        "fixtures_compiled": 4,
+        "fixtures_executed": 0,
+        "runtime_assertions_executed": 0
+      },
+      "observation_scripts": {
+        "powershell_files_parsed": 3,
+        "parse_errors": 0,
+        "executed": 0
+      },
+      "limits": [
+        "Build used existing pinned toolchains, not a fresh toolchain installation on another machine.",
+        "Selected native firmware fixtures were compile-only; no application-control workaround was used.",
+        "Managed host and render checks use synthetic transports, not COM/GATT hardware.",
+        "No device, battery, power, white-screen, enclosure-fit or sleep/wake acceptance was performed by this source-package validation.",
+        "The rebuilt Hub EXE differs from the previous delivered EXE; this record identifies and tests the rebuilt artifact."
+      ]
+    }
+  },
+  "hub_version": "1.7.1",
+  "core": {
+    "exit_code": 0,
+    "groups": 43,
+    "assertions": 6180,
+    "failures": 0,
+    "extra_scope": "Release suite plus four shipped preset validations; release baseline remains 42 groups / 6146 assertions.",
+    "hardware_access": false
+  },
+  "hub": {
+    "publish_exit_code": 0,
+    "exe_sha256": "09d6c07e21bacc422a9dd0355a222cf82afb2c43c28b8bab37006fe5838c7f5e",
+    "release_exe_sha256": "50a009ddb8f05607528ef4ccddd9d77fde6cab38f11204e35c57254acfb9b0cd",
+    "binary_note": "Candidate rebuild differs from original delivered executable and has its own render validation.",
+    "render_exit_code": 0,
+    "render_checks": 788,
+    "rendered_images": 649,
+    "render_passed": true,
+    "hardware_access": false
+  },
+  "release_workspace_test": {
+    "revision": "Hub1.7.1 delivered executable",
+    "processes": 8,
+    "checks": 57,
+    "images": 4,
+    "passed": true,
+    "real_appdata_access": false,
+    "hardware_access": false,
+    "candidate_rerun": false
+  }
+}

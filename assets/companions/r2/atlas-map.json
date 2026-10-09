@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "alpha_threshold": 128,
+  "padding": 2,
+  "atlases": [
+    {"file":"woodland-atlas-original.png","characters":[2,8,4,9],"frames":["idle","blink","happy"],"required":true},
+    {"file":"fantasy-atlas-original.png","characters":[3,5,6,7],"frames":["idle","blink","happy"],"required":true},
+    {"file":"classic-atlas-original.png","characters":[0,1,10,11],"frames":["idle","blink","happy"],"required":true},
+    {"file":"woodland-walk-v2-original.png","characters":[2,8,4,9],"frames":["walk_a","walk_b"],"required":true},
+    {"file":"fantasy-walk-original.png","characters":[3,5,6,7],"frames":["walk_a","walk_b"],"required":true},
+    {"file":"classic-walk-original.png","characters":[0,1,10,11],"frames":["walk_a","walk_b"],"required":true}
+  ],
+  "characters": [
+    {"id":0,"name":"Pixel","slug":"pixel"},
+    {"id":1,"name":"Round","slug":"round"},
+    {"id":2,"name":"Cat","slug":"cat","portrait_idle_cell_fraction":[0.08,0.09,0.75,0.64]},
+    {"id":3,"name":"Robot","slug":"robot","portrait_idle_cell_fraction":[0.08,0.04,0.90,0.68]},
+    {"id":4,"name":"Bunny","slug":"bunny","portrait_idle_cell_fraction":[0.12,0.02,0.86,0.71]},
+    {"id":5,"name":"Ghost","slug":"ghost","portrait_idle_cell_fraction":[0.10,0.02,0.91,0.72]},
+    {"id":6,"name":"Mochi","slug":"mochi","portrait_idle_cell_fraction":[0.06,0.02,0.92,0.74]},
+    {"id":7,"name":"Orbit","slug":"orbit","portrait_idle_cell_fraction":[0.08,0.02,0.90,0.57]},
+    {"id":8,"name":"Fox","slug":"fox","portrait_idle_cell_fraction":[0.06,0.06,0.78,0.66]},
+    {"id":9,"name":"Panda","slug":"panda","portrait_idle_cell_fraction":[0.12,0.01,0.88,0.60]},
+    {"id":10,"name":"Sleepy","slug":"sleepy","portrait_idle_cell_fraction":[0.02,0.02,0.99,0.70]},
+    {"id":11,"name":"Wink","slug":"wink","portrait_idle_cell_fraction":[0.00,0.00,0.99,0.79]}
+  ]
+}

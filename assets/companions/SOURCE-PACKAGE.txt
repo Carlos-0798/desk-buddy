@@ -1,0 +1,9 @@
+The public source package contains the active atlas-map inputs and the exact
+compiled PNGs/manifests used by the firmware and Windows Hub. Historical README
+references to retained rejected/unused atlas alternatives describe the original
+development archive; those alternatives and contact sheets are not required
+build inputs and are omitted here. Raw device data are not part of these assets.
+
+Normal builds use checked-in C++ and PNG data. Optional regeneration uses the
+two compile-companion scripts and Pillow. The generated atlas provenance and
+conversion assumptions remain documented in each revision's README.txt.

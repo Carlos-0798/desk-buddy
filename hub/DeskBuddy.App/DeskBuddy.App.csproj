@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows10.0.19041.0</TargetFramework>
+    <SupportedOSPlatformVersion>10.0.19041.0</SupportedOSPlatformVersion>
+    <UseWPF>true</UseWPF>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <AssemblyName>DeskBuddy.Hub</AssemblyName>
+    <RootNamespace>DeskBuddy.App</RootNamespace>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <Version>1.7.1</Version>
+    <Product>Desk Buddy Hub</Product>
+    <Description>Native configuration companion for Desk Buddy</Description>
+    <PublishSingleFile>true</PublishSingleFile>
+    <SelfContained>true</SelfContained>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../DeskBuddy.Core/DeskBuddy.Core.csproj" />
+    <PackageReference Include="System.IO.Ports" Version="10.0.0" />
+    <EmbeddedResource Include="../../assets/companions/r2/compiled/*.png" Exclude="../../assets/companions/r2/compiled/contact-*.png" LogicalName="DeskBuddy.Companions.%(Filename)%(Extension)" />
+    <EmbeddedResource Include="../../assets/companions/r2/compiled/manifest.json" LogicalName="DeskBuddy.Companions.manifest.json" />
+    <EmbeddedResource Include="../../assets/companions/r3/compiled/*.png" Exclude="../../assets/companions/r3/compiled/contact-*.png" LogicalName="DeskBuddy.Portraits.%(Filename)%(Extension)" />
+    <EmbeddedResource Include="../../assets/companions/r3/compiled/manifest.json" LogicalName="DeskBuddy.Portraits.manifest.json" />
+  </ItemGroup>
+</Project>

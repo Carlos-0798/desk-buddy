@@ -1,0 +1,102 @@
+{
+  "reviewed": "2026-10-05",
+  "scope": "Sanitized summaries; raw hardware logs, banks, identities and machine paths excluded.",
+  "identity": {
+    "firmware": "DESK_BUDDY_R3H_20261005",
+    "firmware_library_source_files": 49,
+    "hex_sha256": "3c5a91cf43779c7a88e8e8f9f8940d50bb3f1d9a19bde44aea19b79214c3bf7e",
+    "effective_backlight_pin": 11,
+    "source_default_backlight_pin": -1,
+    "flash_bytes": 545088,
+    "static_ram_bytes": 33716,
+    "hub_release_baseline": "1.7.1",
+    "hub_frozen_files": 65,
+    "hub_exe_sha256": "50a009ddb8f05607528ef4ccddd9d77fde6cab38f11204e35c57254acfb9b0cd"
+  },
+  "evidence": [
+    {
+      "kind": "executed host software",
+      "revision": "Hub1.7.1",
+      "core_groups": 42,
+      "core_assertions": 6146,
+      "scope": "Protocol, lifecycle and validation/model tests using controlled transports; not hardware trials."
+    },
+    {
+      "kind": "offline WPF rendering",
+      "revision": "Hub1.7.1",
+      "checks": 788,
+      "images": 649,
+      "scope": "Automated offline layout/preview smoke, not full native GUI acceptance."
+    },
+    {
+      "kind": "isolated real WPF processes",
+      "revision": "Hub1.7.1",
+      "processes": 8,
+      "checks": 57,
+      "images": 4,
+      "scope": "Actual editor Closing/reopen and cached snapshot/draft recovery using fake transport and isolated files. No real AppData or hardware."
+    },
+    {
+      "kind": "compiler-evaluated firmware",
+      "revision": "R3H",
+      "scope": "Actual sleep-state boundary/wrap checks; protocol/codec use constexpr adapters; original headers compile under C++11.",
+      "native_test_executions": 0,
+      "real_long_interval_wait": false
+    },
+    {
+      "kind": "target build",
+      "revision": "R3H D11",
+      "result": "PASS",
+      "scope": "Compiler/linker and selected library verification; no peak stack/heap measurement."
+    },
+    {
+      "kind": "actual production USB client",
+      "revision": "R3H / Hub1.7.0 Core",
+      "result": "PASS",
+      "checks": 42,
+      "scope": "Custom settings readback/persistence/protocol, no synthetic HID actions."
+    },
+    {
+      "kind": "actual production BLE client",
+      "revision": "R3H / Hub1.7.0 Windows transport",
+      "result": "PASS",
+      "scope": "Separate from older Python BLE fixture failures; normal GUI not driven."
+    },
+    {
+      "kind": "actual device timing/persistence",
+      "revision": "R3H",
+      "result": "30-second idle sleep despite status polling; custom times saved across software reboot; original bank retained.",
+      "scope": "No 20/30/60/720-minute wall-clock acceptance."
+    },
+    {
+      "kind": "human physical observation",
+      "revision": "R3G D11 historical",
+      "result": "Backlight fully off; first touch wakes with no unintended action.",
+      "scope": "USB-powered observation; not a new R3H battery/encoder wake or energy measurement."
+    },
+    {
+      "kind": "photographs",
+      "result": "Three original builder photographs show bare-board prototype and visible ZH BLE/battery / EN USB status labels.",
+      "scope": "Still imagery does not establish dynamic behavior.",
+      "index": "asset-provenance.json"
+    },
+    {
+      "kind": "mechanical",
+      "revision": "R6",
+      "result": "CAD and printable part geometry",
+      "scope": "Printing/fit and enclosed operation pending."
+    }
+  ],
+  "unresolved_observations": [
+    "Transient encoder unavailable then self-recovered; exact failed transaction not identified.",
+    "Upgrade-time language difference source not established; explicit language save and two subsequent software reboots passed.",
+    "Historical white-screen incidents are not all attributed to one proven root cause."
+  ],
+  "not_claimed": [
+    "Battery endurance or energy-saving percentage",
+    "Precise battery presence/state of charge under USB",
+    "Complete native GUI or battery-only physical wake acceptance",
+    "Enclosure fit or production qualification"
+  ],
+  "source_reference_boundary": "Summaries were reviewed against the private development release ledger. No raw records or personal endpoint data are included. The historical R2 stage-validation record describes that earlier package only."
+}

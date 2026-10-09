@@ -1,0 +1,1935 @@
+{
+  "schema_version": 1,
+  "asset_kind": "dedicated_portrait",
+  "dimensions": [
+    48,
+    30
+  ],
+  "compiler_sha256": "6bda4b50246f29edb071e12fc655437ab13dcb8ae7f1de12a3c14b1d3d9f8e22",
+  "mapping_sha256": "02b63d4f6cc29aa8170140fff79e93769cdc620b24c81af8540dedae038ac242",
+  "pillow_version": "12.3.0",
+  "alpha_threshold": 128,
+  "transparent_index": 0,
+  "palette_size": 32,
+  "sampling": "nearest-neighbour",
+  "source_pngs_modified": false,
+  "extraction": "8-connected whole alpha silhouettes; nominal grid only assigns row/column",
+  "alignment": "one scale per character in source-cell-height units; shared center X=24 and bottom Y=29",
+  "palette_method": "one per-character palette shared across idle/blink/happy; median-cut31 then nearest RGB565; no dithering",
+  "rgb565_decode": "bit replication r5<<3|r5>>2, g6<<2|g6>>4, b5<<3|b5>>2",
+  "sources": [
+    {
+      "file": "woodland-portraits-original.png",
+      "sha256": "0fa4783fc5ad205f7fb3d5d4f15d400c1010783ade8d11c38cc9c97bce96bf88",
+      "size": [
+        1086,
+        1448
+      ],
+      "alpha": {
+        "zero": 510028,
+        "opaque_255": 973,
+        "alpha_1_63": 117850,
+        "alpha_64_127": 7245,
+        "alpha_128_191": 8066,
+        "alpha_192_254": 928366
+      },
+      "grid_rows": 4,
+      "grid_columns": 3
+    },
+    {
+      "file": "fantasy-portraits-original.png",
+      "sha256": "e45da5c69db9ebb78a68bb35757fb60a4acfd5627c19a2c664830a078b5a7937",
+      "size": [
+        1086,
+        1448
+      ],
+      "alpha": {
+        "zero": 572220,
+        "opaque_255": 837,
+        "alpha_1_63": 90829,
+        "alpha_64_127": 6135,
+        "alpha_128_191": 6764,
+        "alpha_192_254": 895743
+      },
+      "grid_rows": 4,
+      "grid_columns": 3
+    },
+    {
+      "file": "classic-portraits-v2-original.png",
+      "sha256": "0a3f78f267e9d07cb0470f17d55897fb46549ff215902549efac7d31a88bfd99",
+      "size": [
+        1086,
+        1448
+      ],
+      "alpha": {
+        "zero": 979829,
+        "opaque_255": 1365,
+        "alpha_1_63": 45799,
+        "alpha_64_127": 4211,
+        "alpha_128_191": 4429,
+        "alpha_192_254": 536895
+      },
+      "grid_rows": 4,
+      "grid_columns": 3
+    }
+  ],
+  "characters": [
+    {
+      "scale_pixels_per_cell_height": 42.058091286307054,
+      "anchor_x": 24.0,
+      "baseline_exclusive_y": 29,
+      "shared_normalized_union_bbox": [
+        -0.36464088397790057,
+        -0.6657458563535912,
+        0.36464088397790057,
+        0
+      ],
+      "palette_count": 32,
+      "used_palette_count": 29,
+      "palette_rgb565": [
+        0,
+        65435,
+        65303,
+        65271,
+        63223,
+        65270,
+        57139,
+        63155,
+        60941,
+        50736,
+        38383,
+        52462,
+        46059,
+        27886,
+        27596,
+        29320,
+        14855,
+        13034,
+        12613,
+        10856,
+        6533,
+        8452,
+        10274,
+        6501,
+        4420,
+        4355,
+        2307,
+        2242,
+        2210,
+        0,
+        0,
+        0
+      ],
+      "id": 0,
+      "slug": "pixel",
+      "name": "Pixel",
+      "palette_offset": 0
+    },
+    {
+      "scale_pixels_per_cell_height": 38.98461538461538,
+      "anchor_x": 24.0,
+      "baseline_exclusive_y": 29,
+      "shared_normalized_union_bbox": [
+        -0.3632596685082873,
+        -0.7182320441988951,
+        0.3632596685082873,
+        0
+      ],
+      "palette_count": 32,
+      "used_palette_count": 22,
+      "palette_rgb565": [
+        0,
+        65368,
+        65300,
+        65229,
+        65197,
+        65196,
+        65133,
+        65131,
+        63024,
+        65066,
+        62890,
+        64846,
+        60777,
+        58598,
+        56293,
+        39490,
+        26945,
+        14528,
+        14464,
+        12416,
+        10368,
+        8224,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "id": 1,
+      "slug": "round",
+      "name": "Round",
+      "palette_offset": 64
+    },
+    {
+      "scale_pixels_per_cell_height": 30.347305389221557,
+      "anchor_x": 24.0,
+      "baseline_exclusive_y": 29,
+      "shared_normalized_union_bbox": [
+        -0.4654696132596685,
+        -0.9226519337016574,
+        0.4654696132596685,
+        0
+      ],
+      "palette_count": 32,
+      "used_palette_count": 28,
+      "palette_rgb565": [
+        0,
+        65402,
+        65368,
+        65336,
+        65304,
+        63093,
+        60850,
+        60816,
+        58768,
+        62865,
+        62834,
+        58703,
+        58607,
+        50187,
+        45833,
+        37543,
+        21649,
+        17196,
+        37479,
+        31335,
+        33318,
+        27045,
+        16580,
+        12323,
+        8421,
+        8227,
+        10275,
+        8194,
+        0,
+        0,
+        0,
+        0
+      ],
+      "id": 2,
+      "slug": "cat",
+      "name": "Cat",
+      "palette_offset": 128
+    },
+    {
+      "scale_pixels_per_cell_height": 30.715151515151515,
+      "anchor_x": 24.0,
+      "baseline_exclusive_y": 29,
+      "shared_normalized_union_bbox": [
+        -0.48066298342541436,
+        -0.9116022099447514,
+        0.48066298342541436,
+        0
+      ],
+      "palette_count": 32,
+      "used_palette_count": 31,
+      "palette_rgb565": [
+        0,
+        65500,
+        65402,
+        65401,
+        65369,
+        65303,
+        63191,
+        63123,
+        63026,
+        60879,
+        58737,
+        62538,
+        40275,
+        25907,
+        35888,
+        13264,
+        35369,
+        14862,
+        12748,
+        12683,
+        12617,
+        10569,
+        14598,
+        12388,
+        8715,
+        10536,
+        8456,
+        8390,
+        8292,
+        8228,
+        6212,
+        0
+      ],
+      "id": 3,
+      "slug": "robot",
+      "name": "Robot",
+      "palette_offset": 192
+    },
+    {
+      "scale_pixels_per_cell_height": 28.0,
+      "anchor_x": 24.0,
+      "baseline_exclusive_y": 29,
+      "shared_normalized_union_bbox": [
+        -0.47651933701657456,
+        -1.0,
+        0.47651933701657456,
+        0
+      ],
+      "palette_count": 32,
+      "used_palette_count": 21,
+      "palette_rgb565": [
+        0,
+        65434,
+        65368,
+        65336,
+        65271,
+        65174,
+        61013,
+        64915,
+        64850,
+        64818,
+        64688,
+        60786,
+        48366,
+        41898,
+        33352,
+        19108,
+        16677,
+        12420,
+        12324,
+        8259,
+        8194,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "id": 4,
+      "slug": "bunny",
+      "name": "Bunny",
+      "palette_offset": 256
+    },
+    {
+      "scale_pixels_per_cell_height": 32.075949367088604,
+      "anchor_x": 24.0,
+      "baseline_exclusive_y": 29,
+      "shared_normalized_union_bbox": [
+        -0.4654696132596685,
+        -0.8729281767955801,
+        0.4654696132596685,
+        0
+      ],
+      "palette_count": 32,
+      "used_palette_count": 23,
+      "palette_rgb565": [
+        0,
+        65438,
+        61214,
+        61182,
+        61181,
+        61150,
+        59070,
+        56958,
+        56895,
+        54815,
+        54814,
+        64948,
+        54782,
+        50591,
+        48478,
+        46302,
+        41877,
+        18699,
+        10312,
+        10281,
+        10279,
+        8199,
+        6150,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "id": 5,
+      "slug": "ghost",
+      "name": "Ghost",
+      "palette_offset": 320
+    },
+    {
+      "scale_pixels_per_cell_height": 30.256716417910447,
+      "anchor_x": 24.0,
+      "baseline_exclusive_y": 29,
+      "shared_normalized_union_bbox": [
+        -0.4723756906077348,
+        -0.925414364640884,
+        0.4723756906077348,
+        0
+      ],
+      "palette_count": 32,
+      "used_palette_count": 26,
+      "palette_rgb565": [
+        0,
+        65434,
+        65401,
+        65369,
+        65303,
+        65173,
+        64946,
+        63126,
+        58963,
+        58834,
+        38311,
+        64913,
+        64912,
+        64880,
+        64784,
+        62704,
+        48429,
+        31974,
+        54092,
+        27367,
+        20772,
+        8354,
+        12324,
+        10276,
+        8258,
+        6209,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "id": 6,
+      "slug": "mochi",
+      "name": "Mochi",
+      "palette_offset": 384
+    },
+    {
+      "scale_pixels_per_cell_height": 36.460431654676256,
+      "anchor_x": 24.0,
+      "baseline_exclusive_y": 29,
+      "shared_normalized_union_bbox": [
+        -0.48204419889502764,
+        -0.7679558011049724,
+        0.48204419889502764,
+        0
+      ],
+      "palette_count": 32,
+      "used_palette_count": 31,
+      "palette_rgb565": [
+        0,
+        65468,
+        65434,
+        65402,
+        65369,
+        65368,
+        65170,
+        63159,
+        56886,
+        58800,
+        58669,
+        46387,
+        25874,
+        50026,
+        21232,
+        13167,
+        14896,
+        24935,
+        12684,
+        10603,
+        10536,
+        10503,
+        10537,
+        10504,
+        8521,
+        8456,
+        8391,
+        6310,
+        8260,
+        8228,
+        6212,
+        0
+      ],
+      "id": 7,
+      "slug": "orbit",
+      "name": "Orbit",
+      "palette_offset": 448
+    },
+    {
+      "scale_pixels_per_cell_height": 32.17777777777778,
+      "anchor_x": 24.0,
+      "baseline_exclusive_y": 29,
+      "shared_normalized_union_bbox": [
+        -0.47375690607734805,
+        -0.8701657458563536,
+        0.47375690607734805,
+        0
+      ],
+      "palette_count": 32,
+      "used_palette_count": 27,
+      "palette_rgb565": [
+        0,
+        65402,
+        65368,
+        65336,
+        65304,
+        63126,
+        64980,
+        60916,
+        64850,
+        64619,
+        64586,
+        64554,
+        62638,
+        50417,
+        62474,
+        60330,
+        52009,
+        45671,
+        25323,
+        31174,
+        22853,
+        18725,
+        16613,
+        12388,
+        10307,
+        10275,
+        8195,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "id": 8,
+      "slug": "fox",
+      "name": "Fox",
+      "palette_offset": 512
+    },
+    {
+      "scale_pixels_per_cell_height": 34.35932203389831,
+      "anchor_x": 24.0,
+      "baseline_exclusive_y": 29,
+      "shared_normalized_union_bbox": [
+        -0.46408839779005523,
+        -0.8149171270718232,
+        0.46408839779005523,
+        0
+      ],
+      "palette_count": 32,
+      "used_palette_count": 24,
+      "palette_rgb565": [
+        0,
+        65402,
+        65368,
+        63321,
+        65336,
+        63288,
+        63256,
+        63093,
+        60851,
+        42251,
+        35753,
+        23239,
+        20903,
+        18855,
+        18886,
+        18823,
+        18790,
+        16678,
+        14565,
+        12516,
+        10372,
+        10308,
+        10275,
+        8227,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "id": 9,
+      "slug": "panda",
+      "name": "Panda",
+      "palette_offset": 576
+    },
+    {
+      "scale_pixels_per_cell_height": 43.689655172413794,
+      "anchor_x": 24.0,
+      "baseline_exclusive_y": 29,
+      "shared_normalized_union_bbox": [
+        -0.3770718232044199,
+        -0.6408839779005525,
+        0.3770718232044199,
+        0
+      ],
+      "palette_count": 32,
+      "used_palette_count": 29,
+      "palette_rgb565": [
+        0,
+        65369,
+        65337,
+        65336,
+        63189,
+        60941,
+        60785,
+        44380,
+        46326,
+        42235,
+        40155,
+        40122,
+        35897,
+        33752,
+        33653,
+        27414,
+        21140,
+        19059,
+        19027,
+        16947,
+        16914,
+        18830,
+        12687,
+        10508,
+        8328,
+        6248,
+        8230,
+        6183,
+        4133,
+        0,
+        0,
+        0
+      ],
+      "id": 10,
+      "slug": "sleepy",
+      "name": "Sleepy",
+      "palette_offset": 640
+    },
+    {
+      "scale_pixels_per_cell_height": 43.13191489361702,
+      "anchor_x": 24.0,
+      "baseline_exclusive_y": 29,
+      "shared_normalized_union_bbox": [
+        -0.34806629834254144,
+        -0.649171270718232,
+        0.34806629834254144,
+        0
+      ],
+      "palette_count": 32,
+      "used_palette_count": 24,
+      "palette_rgb565": [
+        0,
+        65369,
+        65337,
+        65304,
+        63257,
+        65206,
+        65075,
+        64848,
+        62832,
+        64814,
+        64813,
+        64782,
+        64781,
+        64749,
+        64652,
+        62475,
+        58186,
+        53961,
+        39368,
+        18564,
+        14370,
+        10274,
+        10242,
+        10241,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "id": 11,
+      "slug": "wink",
+      "name": "Wink",
+      "palette_offset": 704
+    }
+  ],
+  "frames": [
+    {
+      "source": "classic-portraits-v2-original.png",
+      "source_sha256": "0a3f78f267e9d07cb0470f17d55897fb46549ff215902549efac7d31a88bfd99",
+      "tile_box": [
+        65,
+        95,
+        329,
+        334
+      ],
+      "nominal_tile_box": [
+        0,
+        0,
+        362,
+        362
+      ],
+      "source_component_pixels": 45212,
+      "row": 0,
+      "column": 0,
+      "character": 0,
+      "slug": "pixel",
+      "frame": "idle",
+      "indices_offset": 0,
+      "indices_bytes": 1440,
+      "indices_sha256": "2c4d3d01cf2c266f71e1c1a687cd881eea3d0236fe1cb0afbae7a475ce490e0b",
+      "png": "00-pixel-idle.png",
+      "png_sha256": "8a76187fa2f33651ea9a1456d5f116e3fb8c287607562efe50c82381943ec84c",
+      "visible_pixels": 613,
+      "compiled_alpha_bbox": [
+        9,
+        1,
+        39,
+        29
+      ]
+    },
+    {
+      "source": "classic-portraits-v2-original.png",
+      "source_sha256": "0a3f78f267e9d07cb0470f17d55897fb46549ff215902549efac7d31a88bfd99",
+      "tile_box": [
+        415,
+        95,
+        677,
+        334
+      ],
+      "nominal_tile_box": [
+        362,
+        0,
+        724,
+        362
+      ],
+      "source_component_pixels": 45068,
+      "row": 0,
+      "column": 1,
+      "character": 0,
+      "slug": "pixel",
+      "frame": "blink",
+      "indices_offset": 1440,
+      "indices_bytes": 1440,
+      "indices_sha256": "f416833bafd1dadead304e66d99c6edbdf1c5b612f4a7db4d5138ffbc5efdb2f",
+      "png": "00-pixel-blink.png",
+      "png_sha256": "ca1aee50d829d306532fd4c55e1262aab01a2f9ad1ccbafadf7974188fffd1ee",
+      "visible_pixels": 610,
+      "compiled_alpha_bbox": [
+        9,
+        1,
+        39,
+        29
+      ]
+    },
+    {
+      "source": "classic-portraits-v2-original.png",
+      "source_sha256": "0a3f78f267e9d07cb0470f17d55897fb46549ff215902549efac7d31a88bfd99",
+      "tile_box": [
+        758,
+        93,
+        1022,
+        334
+      ],
+      "nominal_tile_box": [
+        724,
+        0,
+        1086,
+        362
+      ],
+      "source_component_pixels": 45718,
+      "row": 0,
+      "column": 2,
+      "character": 0,
+      "slug": "pixel",
+      "frame": "happy",
+      "indices_offset": 2880,
+      "indices_bytes": 1440,
+      "indices_sha256": "d97ef2b1db470ec27d6c72b6c65e45c83212c7628e8bc03c954783f0ca349a44",
+      "png": "00-pixel-happy.png",
+      "png_sha256": "b162eaa20f48ed1db92fc15951c71a983a5bad3483de3501a4ebdf6aa687c655",
+      "visible_pixels": 618,
+      "compiled_alpha_bbox": [
+        9,
+        1,
+        39,
+        29
+      ]
+    },
+    {
+      "source": "classic-portraits-v2-original.png",
+      "source_sha256": "0a3f78f267e9d07cb0470f17d55897fb46549ff215902549efac7d31a88bfd99",
+      "tile_box": [
+        67,
+        427,
+        330,
+        687
+      ],
+      "nominal_tile_box": [
+        0,
+        362,
+        362,
+        724
+      ],
+      "source_component_pixels": 46733,
+      "row": 1,
+      "column": 0,
+      "character": 1,
+      "slug": "round",
+      "frame": "idle",
+      "indices_offset": 4320,
+      "indices_bytes": 1440,
+      "indices_sha256": "a314a6793fda5322b9c5600402b5ea3b2ec10097967d71141f026e79e5b704d3",
+      "png": "01-round-idle.png",
+      "png_sha256": "1fefd3b36c3bc5eee75be73648d22eace64c02c0fa23a3ef3e24e6e13c962e3b",
+      "visible_pixels": 540,
+      "compiled_alpha_bbox": [
+        10,
+        1,
+        38,
+        29
+      ]
+    },
+    {
+      "source": "classic-portraits-v2-original.png",
+      "source_sha256": "0a3f78f267e9d07cb0470f17d55897fb46549ff215902549efac7d31a88bfd99",
+      "tile_box": [
+        416,
+        427,
+        673,
+        687
+      ],
+      "nominal_tile_box": [
+        362,
+        362,
+        724,
+        724
+      ],
+      "source_component_pixels": 45620,
+      "row": 1,
+      "column": 1,
+      "character": 1,
+      "slug": "round",
+      "frame": "blink",
+      "indices_offset": 5760,
+      "indices_bytes": 1440,
+      "indices_sha256": "2ef2b975a05f1ec625d6584a96c9ae7d06ea25456fc682fe53ab3ed7b9a1f01d",
+      "png": "01-round-blink.png",
+      "png_sha256": "bbb0913960194e4143dbedc9ff4761e4e76ca7a1768818c8e2d8f6fba25a47f2",
+      "visible_pixels": 535,
+      "compiled_alpha_bbox": [
+        10,
+        1,
+        38,
+        29
+      ]
+    },
+    {
+      "source": "classic-portraits-v2-original.png",
+      "source_sha256": "0a3f78f267e9d07cb0470f17d55897fb46549ff215902549efac7d31a88bfd99",
+      "tile_box": [
+        761,
+        427,
+        1020,
+        687
+      ],
+      "nominal_tile_box": [
+        724,
+        362,
+        1086,
+        724
+      ],
+      "source_component_pixels": 46227,
+      "row": 1,
+      "column": 2,
+      "character": 1,
+      "slug": "round",
+      "frame": "happy",
+      "indices_offset": 7200,
+      "indices_bytes": 1440,
+      "indices_sha256": "d1698d05dffa3f4a9a03903fdcbd207065f9af7b075409ce8f7414269b694025",
+      "png": "01-round-happy.png",
+      "png_sha256": "d140825ca0b079b4001f6e0df2ee9339a2ec2b67685b12123a5875bb937c04e7",
+      "visible_pixels": 536,
+      "compiled_alpha_bbox": [
+        10,
+        1,
+        38,
+        29
+      ]
+    },
+    {
+      "source": "woodland-portraits-original.png",
+      "source_sha256": "0fa4783fc5ad205f7fb3d5d4f15d400c1010783ade8d11c38cc9c97bce96bf88",
+      "tile_box": [
+        15,
+        45,
+        351,
+        379
+      ],
+      "nominal_tile_box": [
+        0,
+        0,
+        362,
+        362
+      ],
+      "source_component_pixels": 79324,
+      "row": 0,
+      "column": 0,
+      "character": 2,
+      "slug": "cat",
+      "frame": "idle",
+      "indices_offset": 8640,
+      "indices_bytes": 1440,
+      "indices_sha256": "f9b856893e6e08b4ee63a94e20c0327f575bd373c9fe98a495f616260ba3e1cd",
+      "png": "02-cat-idle.png",
+      "png_sha256": "030554a1f17f3d7d0a6032c89f8ca28503990d5dcfbd6a551e41fbcb98f1463d",
+      "visible_pixels": 557,
+      "compiled_alpha_bbox": [
+        10,
+        1,
+        38,
+        29
+      ]
+    },
+    {
+      "source": "woodland-portraits-original.png",
+      "source_sha256": "0fa4783fc5ad205f7fb3d5d4f15d400c1010783ade8d11c38cc9c97bce96bf88",
+      "tile_box": [
+        369,
+        53,
+        704,
+        379
+      ],
+      "nominal_tile_box": [
+        362,
+        0,
+        724,
+        362
+      ],
+      "source_component_pixels": 78545,
+      "row": 0,
+      "column": 1,
+      "character": 2,
+      "slug": "cat",
+      "frame": "blink",
+      "indices_offset": 10080,
+      "indices_bytes": 1440,
+      "indices_sha256": "c53ddadc9c96fbcbd0573e23364f9595cb04667aa828285eeb8e7f1488516ff1",
+      "png": "02-cat-blink.png",
+      "png_sha256": "c1fa23fd47d43b1d1d17eb871ef3aedb9df5d119f773a4476f54b8bb8e21eed9",
+      "visible_pixels": 553,
+      "compiled_alpha_bbox": [
+        10,
+        2,
+        38,
+        29
+      ]
+    },
+    {
+      "source": "woodland-portraits-original.png",
+      "source_sha256": "0fa4783fc5ad205f7fb3d5d4f15d400c1010783ade8d11c38cc9c97bce96bf88",
+      "tile_box": [
+        716,
+        51,
+        1053,
+        379
+      ],
+      "nominal_tile_box": [
+        724,
+        0,
+        1086,
+        362
+      ],
+      "source_component_pixels": 79543,
+      "row": 0,
+      "column": 2,
+      "character": 2,
+      "slug": "cat",
+      "frame": "happy",
+      "indices_offset": 11520,
+      "indices_bytes": 1440,
+      "indices_sha256": "2220eba9010f8115d891fbab7c870bc37989ff0c714eb111ebcb8df1f2adfdbf",
+      "png": "02-cat-happy.png",
+      "png_sha256": "a8563aba03e57c8fe39757cac8d5a8abb1c75df0cece158d66da77d37ff59a11",
+      "visible_pixels": 561,
+      "compiled_alpha_bbox": [
+        10,
+        2,
+        38,
+        29
+      ]
+    },
+    {
+      "source": "fantasy-portraits-original.png",
+      "source_sha256": "e45da5c69db9ebb78a68bb35757fb60a4acfd5627c19a2c664830a078b5a7937",
+      "tile_box": [
+        6,
+        37,
+        354,
+        367
+      ],
+      "nominal_tile_box": [
+        0,
+        0,
+        362,
+        362
+      ],
+      "source_component_pixels": 73041,
+      "row": 0,
+      "column": 0,
+      "character": 3,
+      "slug": "robot",
+      "frame": "idle",
+      "indices_offset": 12960,
+      "indices_bytes": 1440,
+      "indices_sha256": "37559ddb3b94fa26e9c03c91cc3eafec0a431d3326b8281710afb1dc4983ded2",
+      "png": "03-robot-idle.png",
+      "png_sha256": "c4d4f1d308e7a799a28ca8675f57f5cb4125b2ce6bdc430d23b2e02d8026e2c8",
+      "visible_pixels": 527,
+      "compiled_alpha_bbox": [
+        9,
+        1,
+        39,
+        29
+      ]
+    },
+    {
+      "source": "fantasy-portraits-original.png",
+      "source_sha256": "e45da5c69db9ebb78a68bb35757fb60a4acfd5627c19a2c664830a078b5a7937",
+      "tile_box": [
+        375,
+        38,
+        718,
+        367
+      ],
+      "nominal_tile_box": [
+        362,
+        0,
+        724,
+        362
+      ],
+      "source_component_pixels": 72400,
+      "row": 0,
+      "column": 1,
+      "character": 3,
+      "slug": "robot",
+      "frame": "blink",
+      "indices_offset": 14400,
+      "indices_bytes": 1440,
+      "indices_sha256": "16ce16f21e2831448f87baf702109be7e224a7de80f0779e81ff08e69b7fdc69",
+      "png": "03-robot-blink.png",
+      "png_sha256": "1b4b2164223468e2ef4c5ed81fb2d41193f9dd187e0ed40b3f8495eeda5f08f6",
+      "visible_pixels": 516,
+      "compiled_alpha_bbox": [
+        9,
+        1,
+        39,
+        29
+      ]
+    },
+    {
+      "source": "fantasy-portraits-original.png",
+      "source_sha256": "e45da5c69db9ebb78a68bb35757fb60a4acfd5627c19a2c664830a078b5a7937",
+      "tile_box": [
+        740,
+        37,
+        1085,
+        367
+      ],
+      "nominal_tile_box": [
+        724,
+        0,
+        1086,
+        362
+      ],
+      "source_component_pixels": 73266,
+      "row": 0,
+      "column": 2,
+      "character": 3,
+      "slug": "robot",
+      "frame": "happy",
+      "indices_offset": 15840,
+      "indices_bytes": 1440,
+      "indices_sha256": "28be7036c71f9ffbd9403fa9a0b32f1fde0061fd91b36e83bcf5680f8f14c524",
+      "png": "03-robot-happy.png",
+      "png_sha256": "d423fcff3030f2cda2c0cafa887785bdf0ad25c4a29c33d3fc21680ff43d4c02",
+      "visible_pixels": 527,
+      "compiled_alpha_bbox": [
+        9,
+        1,
+        39,
+        29
+      ]
+    },
+    {
+      "source": "woodland-portraits-original.png",
+      "source_sha256": "0fa4783fc5ad205f7fb3d5d4f15d400c1010783ade8d11c38cc9c97bce96bf88",
+      "tile_box": [
+        26,
+        726,
+        371,
+        1086
+      ],
+      "nominal_tile_box": [
+        0,
+        724,
+        362,
+        1086
+      ],
+      "source_component_pixels": 81205,
+      "row": 2,
+      "column": 0,
+      "character": 4,
+      "slug": "bunny",
+      "frame": "idle",
+      "indices_offset": 17280,
+      "indices_bytes": 1440,
+      "indices_sha256": "113376c8294aabdc97fbfd5a8499bc26fb76aa232b81cd306d0c8cbb76d0ca55",
+      "png": "04-bunny-idle.png",
+      "png_sha256": "95de662a30b74c45e172f2dcd3f67f537944032199372b662bc88981c40990ad",
+      "visible_pixels": 484,
+      "compiled_alpha_bbox": [
+        11,
+        1,
+        37,
+        29
+      ]
+    },
+    {
+      "source": "woodland-portraits-original.png",
+      "source_sha256": "0fa4783fc5ad205f7fb3d5d4f15d400c1010783ade8d11c38cc9c97bce96bf88",
+      "tile_box": [
+        376,
+        727,
+        716,
+        1089
+      ],
+      "nominal_tile_box": [
+        362,
+        724,
+        724,
+        1086
+      ],
+      "source_component_pixels": 80454,
+      "row": 2,
+      "column": 1,
+      "character": 4,
+      "slug": "bunny",
+      "frame": "blink",
+      "indices_offset": 18720,
+      "indices_bytes": 1440,
+      "indices_sha256": "bd22e4d3af0c9d087f9c084c418998abd6022cb3e2d70230708b231b56164535",
+      "png": "04-bunny-blink.png",
+      "png_sha256": "5fcf7870ec49b9be70b2d4c8ba0daf98d612c27aca35c2d0391dc495901eb614",
+      "visible_pixels": 482,
+      "compiled_alpha_bbox": [
+        11,
+        1,
+        37,
+        29
+      ]
+    },
+    {
+      "source": "woodland-portraits-original.png",
+      "source_sha256": "0fa4783fc5ad205f7fb3d5d4f15d400c1010783ade8d11c38cc9c97bce96bf88",
+      "tile_box": [
+        730,
+        727,
+        1071,
+        1089
+      ],
+      "nominal_tile_box": [
+        724,
+        724,
+        1086,
+        1086
+      ],
+      "source_component_pixels": 79961,
+      "row": 2,
+      "column": 2,
+      "character": 4,
+      "slug": "bunny",
+      "frame": "happy",
+      "indices_offset": 20160,
+      "indices_bytes": 1440,
+      "indices_sha256": "fc498dec659165ca5fca23a6db81c20601a2ed612ae813f3268bf7047d8072b2",
+      "png": "04-bunny-happy.png",
+      "png_sha256": "ae66ae10a8a54b4b73a299672ded6aedd9cc771ddbb3aceea7db5b529baa0602",
+      "visible_pixels": 477,
+      "compiled_alpha_bbox": [
+        11,
+        1,
+        37,
+        29
+      ]
+    },
+    {
+      "source": "fantasy-portraits-original.png",
+      "source_sha256": "e45da5c69db9ebb78a68bb35757fb60a4acfd5627c19a2c664830a078b5a7937",
+      "tile_box": [
+        14,
+        391,
+        351,
+        707
+      ],
+      "nominal_tile_box": [
+        0,
+        362,
+        362,
+        724
+      ],
+      "source_component_pixels": 73797,
+      "row": 1,
+      "column": 0,
+      "character": 5,
+      "slug": "ghost",
+      "frame": "idle",
+      "indices_offset": 21600,
+      "indices_bytes": 1440,
+      "indices_sha256": "09c8aa0c18f295cf605506667a43f71e668b01e9fbf2aed319608853cf4b1214",
+      "png": "05-ghost-idle.png",
+      "png_sha256": "0d1000873e38e52da03076df2485ac462f3883f6daf322e2352c978c31dd3592",
+      "visible_pixels": 579,
+      "compiled_alpha_bbox": [
+        9,
+        1,
+        39,
+        29
+      ]
+    },
+    {
+      "source": "fantasy-portraits-original.png",
+      "source_sha256": "e45da5c69db9ebb78a68bb35757fb60a4acfd5627c19a2c664830a078b5a7937",
+      "tile_box": [
+        380,
+        391,
+        716,
+        707
+      ],
+      "nominal_tile_box": [
+        362,
+        362,
+        724,
+        724
+      ],
+      "source_component_pixels": 73779,
+      "row": 1,
+      "column": 1,
+      "character": 5,
+      "slug": "ghost",
+      "frame": "blink",
+      "indices_offset": 23040,
+      "indices_bytes": 1440,
+      "indices_sha256": "840d74aa9258d915cb2293509ef3ff36c650db8399ebfe462263fd4f1e9f49a1",
+      "png": "05-ghost-blink.png",
+      "png_sha256": "bc23b2bd24b67f60ae213ff85f0cec5e8cc57c447d6bad2877711f92b7e2267a",
+      "visible_pixels": 581,
+      "compiled_alpha_bbox": [
+        9,
+        1,
+        39,
+        29
+      ]
+    },
+    {
+      "source": "fantasy-portraits-original.png",
+      "source_sha256": "e45da5c69db9ebb78a68bb35757fb60a4acfd5627c19a2c664830a078b5a7937",
+      "tile_box": [
+        747,
+        391,
+        1084,
+        707
+      ],
+      "nominal_tile_box": [
+        724,
+        362,
+        1086,
+        724
+      ],
+      "source_component_pixels": 73303,
+      "row": 1,
+      "column": 2,
+      "character": 5,
+      "slug": "ghost",
+      "frame": "happy",
+      "indices_offset": 24480,
+      "indices_bytes": 1440,
+      "indices_sha256": "d65ed42ff5a44913a872233e48278e90e3d51f6fb08f47699f1f268e56505af0",
+      "png": "05-ghost-happy.png",
+      "png_sha256": "b30282f9ca7fc2f696bdaad943285276a2e40ffc10a3f843a85327a9aa309101",
+      "visible_pixels": 579,
+      "compiled_alpha_bbox": [
+        9,
+        1,
+        39,
+        29
+      ]
+    },
+    {
+      "source": "fantasy-portraits-original.png",
+      "source_sha256": "e45da5c69db9ebb78a68bb35757fb60a4acfd5627c19a2c664830a078b5a7937",
+      "tile_box": [
+        10,
+        730,
+        352,
+        1064
+      ],
+      "nominal_tile_box": [
+        0,
+        724,
+        362,
+        1086
+      ],
+      "source_component_pixels": 83701,
+      "row": 2,
+      "column": 0,
+      "character": 6,
+      "slug": "mochi",
+      "frame": "idle",
+      "indices_offset": 25920,
+      "indices_bytes": 1440,
+      "indices_sha256": "2eb1a77e09b6927773a1872b8f94bc85302c8e86bd699e7d1b795e122fa791c7",
+      "png": "06-mochi-idle.png",
+      "png_sha256": "2c0ec729c08716ef5f5ca733143aa54f277df0697c048188ee45f1ad67d1f1cb",
+      "visible_pixels": 584,
+      "compiled_alpha_bbox": [
+        10,
+        1,
+        38,
+        29
+      ]
+    },
+    {
+      "source": "fantasy-portraits-original.png",
+      "source_sha256": "e45da5c69db9ebb78a68bb35757fb60a4acfd5627c19a2c664830a078b5a7937",
+      "tile_box": [
+        375,
+        730,
+        717,
+        1064
+      ],
+      "nominal_tile_box": [
+        362,
+        724,
+        724,
+        1086
+      ],
+      "source_component_pixels": 84142,
+      "row": 2,
+      "column": 1,
+      "character": 6,
+      "slug": "mochi",
+      "frame": "blink",
+      "indices_offset": 27360,
+      "indices_bytes": 1440,
+      "indices_sha256": "39ff32c18eba93850fda01015b93feaa1a461eddd2afb339e38344a6a247296b",
+      "png": "06-mochi-blink.png",
+      "png_sha256": "4428acb5fba20dd3c5df8115fa28718d151cd5db2b0b0533d8dba9cc100cda80",
+      "visible_pixels": 587,
+      "compiled_alpha_bbox": [
+        10,
+        1,
+        38,
+        29
+      ]
+    },
+    {
+      "source": "fantasy-portraits-original.png",
+      "source_sha256": "e45da5c69db9ebb78a68bb35757fb60a4acfd5627c19a2c664830a078b5a7937",
+      "tile_box": [
+        740,
+        729,
+        1082,
+        1064
+      ],
+      "nominal_tile_box": [
+        724,
+        724,
+        1086,
+        1086
+      ],
+      "source_component_pixels": 83536,
+      "row": 2,
+      "column": 2,
+      "character": 6,
+      "slug": "mochi",
+      "frame": "happy",
+      "indices_offset": 28800,
+      "indices_bytes": 1440,
+      "indices_sha256": "74ce80d078d6886ab525cd6c93b0547e49de625db388719a13b5aa7f2f46ce79",
+      "png": "06-mochi-happy.png",
+      "png_sha256": "f4642ac10dd57f5a2c885dc0cd5a1099d2f3385050b1f20a04988fe96a47494c",
+      "visible_pixels": 584,
+      "compiled_alpha_bbox": [
+        10,
+        1,
+        38,
+        29
+      ]
+    },
+    {
+      "source": "fantasy-portraits-original.png",
+      "source_sha256": "e45da5c69db9ebb78a68bb35757fb60a4acfd5627c19a2c664830a078b5a7937",
+      "tile_box": [
+        6,
+        1081,
+        355,
+        1359
+      ],
+      "nominal_tile_box": [
+        0,
+        1086,
+        362,
+        1448
+      ],
+      "source_component_pixels": 70819,
+      "row": 3,
+      "column": 0,
+      "character": 7,
+      "slug": "orbit",
+      "frame": "idle",
+      "indices_offset": 30240,
+      "indices_bytes": 1440,
+      "indices_sha256": "d240a1fa473b180eb7aeb0655387273da50a5c315f2535fea9a89157965916c2",
+      "png": "07-orbit-idle.png",
+      "png_sha256": "e8d38e9a642356da3965e5eb6d0296e628402d409014c4929b5df7b56091d397",
+      "visible_pixels": 711,
+      "compiled_alpha_bbox": [
+        6,
+        1,
+        41,
+        29
+      ]
+    },
+    {
+      "source": "fantasy-portraits-original.png",
+      "source_sha256": "e45da5c69db9ebb78a68bb35757fb60a4acfd5627c19a2c664830a078b5a7937",
+      "tile_box": [
+        370,
+        1081,
+        718,
+        1358
+      ],
+      "nominal_tile_box": [
+        362,
+        1086,
+        724,
+        1448
+      ],
+      "source_component_pixels": 70689,
+      "row": 3,
+      "column": 1,
+      "character": 7,
+      "slug": "orbit",
+      "frame": "blink",
+      "indices_offset": 31680,
+      "indices_bytes": 1440,
+      "indices_sha256": "d53d7e89b2788988bac8730c8e27fb0db274fecfdeb2ab360569aab7956c8269",
+      "png": "07-orbit-blink.png",
+      "png_sha256": "c6dcf2634d1b6961c1edf81570d1b547ea6be1e79bbd76a3361f693b29aac33d",
+      "visible_pixels": 717,
+      "compiled_alpha_bbox": [
+        6,
+        1,
+        42,
+        29
+      ]
+    },
+    {
+      "source": "fantasy-portraits-original.png",
+      "source_sha256": "e45da5c69db9ebb78a68bb35757fb60a4acfd5627c19a2c664830a078b5a7937",
+      "tile_box": [
+        732,
+        1081,
+        1081,
+        1359
+      ],
+      "nominal_tile_box": [
+        724,
+        1086,
+        1086,
+        1448
+      ],
+      "source_component_pixels": 70871,
+      "row": 3,
+      "column": 2,
+      "character": 7,
+      "slug": "orbit",
+      "frame": "happy",
+      "indices_offset": 33120,
+      "indices_bytes": 1440,
+      "indices_sha256": "4d3ee9e585ad0c030c97533ae16c80598adc87ac19fa82278a2f7e7cf3636927",
+      "png": "07-orbit-happy.png",
+      "png_sha256": "ac38ec3cc09cbe32edf75e1f76f2983238ef2409b816ed5df2f3fd8a8f72985c",
+      "visible_pixels": 721,
+      "compiled_alpha_bbox": [
+        6,
+        1,
+        42,
+        29
+      ]
+    },
+    {
+      "source": "woodland-portraits-original.png",
+      "source_sha256": "0fa4783fc5ad205f7fb3d5d4f15d400c1010783ade8d11c38cc9c97bce96bf88",
+      "tile_box": [
+        16,
+        404,
+        359,
+        717
+      ],
+      "nominal_tile_box": [
+        0,
+        362,
+        362,
+        724
+      ],
+      "source_component_pixels": 76636,
+      "row": 1,
+      "column": 0,
+      "character": 8,
+      "slug": "fox",
+      "frame": "idle",
+      "indices_offset": 34560,
+      "indices_bytes": 1440,
+      "indices_sha256": "dd179f1baf613cbd8e50c9e1a39c307ab70b44caafea50a4b1dc586f27ad76fe",
+      "png": "08-fox-idle.png",
+      "png_sha256": "03e28cd75bcef798ac3125650163e5373a24d3db803daec9dcf4b0fc90818a29",
+      "visible_pixels": 603,
+      "compiled_alpha_bbox": [
+        9,
+        1,
+        39,
+        29
+      ]
+    },
+    {
+      "source": "woodland-portraits-original.png",
+      "source_sha256": "0fa4783fc5ad205f7fb3d5d4f15d400c1010783ade8d11c38cc9c97bce96bf88",
+      "tile_box": [
+        376,
+        405,
+        706,
+        717
+      ],
+      "nominal_tile_box": [
+        362,
+        362,
+        724,
+        724
+      ],
+      "source_component_pixels": 74027,
+      "row": 1,
+      "column": 1,
+      "character": 8,
+      "slug": "fox",
+      "frame": "blink",
+      "indices_offset": 36000,
+      "indices_bytes": 1440,
+      "indices_sha256": "2c0e06e1eb149df9a2ba1d05a72a228aece8ad4abd71b5eba1b0ccfab34854ad",
+      "png": "08-fox-blink.png",
+      "png_sha256": "e1925a13931aee6240b4a61efac002e51679be2731094e485d669f0f9cbc4cad",
+      "visible_pixels": 588,
+      "compiled_alpha_bbox": [
+        9,
+        1,
+        39,
+        29
+      ]
+    },
+    {
+      "source": "woodland-portraits-original.png",
+      "source_sha256": "0fa4783fc5ad205f7fb3d5d4f15d400c1010783ade8d11c38cc9c97bce96bf88",
+      "tile_box": [
+        727,
+        402,
+        1060,
+        717
+      ],
+      "nominal_tile_box": [
+        724,
+        362,
+        1086,
+        724
+      ],
+      "source_component_pixels": 75554,
+      "row": 1,
+      "column": 2,
+      "character": 8,
+      "slug": "fox",
+      "frame": "happy",
+      "indices_offset": 37440,
+      "indices_bytes": 1440,
+      "indices_sha256": "94c6a4dbc6cc9e012f01f4bfe367ba400267738da9b2916b9f1f3d35d68150f8",
+      "png": "08-fox-happy.png",
+      "png_sha256": "0c77629ec92065f7c92ea9d6524500eeaaf7e1958aa9cdf1b6f56cf599379adc",
+      "visible_pixels": 596,
+      "compiled_alpha_bbox": [
+        9,
+        1,
+        39,
+        29
+      ]
+    },
+    {
+      "source": "woodland-portraits-original.png",
+      "source_sha256": "0fa4783fc5ad205f7fb3d5d4f15d400c1010783ade8d11c38cc9c97bce96bf88",
+      "tile_box": [
+        25,
+        1110,
+        360,
+        1404
+      ],
+      "nominal_tile_box": [
+        0,
+        1086,
+        362,
+        1448
+      ],
+      "source_component_pixels": 77114,
+      "row": 3,
+      "column": 0,
+      "character": 9,
+      "slug": "panda",
+      "frame": "idle",
+      "indices_offset": 38880,
+      "indices_bytes": 1440,
+      "indices_sha256": "4d12fbc7fc26e54b7b22860889938ddbed2e9e50a804476d1b58d199866425f5",
+      "png": "09-panda-idle.png",
+      "png_sha256": "9f6820774f6285a2ad21e820b7d6b8c7c54b578513a8d7dba5644d4ea8e459ff",
+      "visible_pixels": 699,
+      "compiled_alpha_bbox": [
+        8,
+        1,
+        40,
+        29
+      ]
+    },
+    {
+      "source": "woodland-portraits-original.png",
+      "source_sha256": "0fa4783fc5ad205f7fb3d5d4f15d400c1010783ade8d11c38cc9c97bce96bf88",
+      "tile_box": [
+        377,
+        1110,
+        713,
+        1404
+      ],
+      "nominal_tile_box": [
+        362,
+        1086,
+        724,
+        1448
+      ],
+      "source_component_pixels": 77468,
+      "row": 3,
+      "column": 1,
+      "character": 9,
+      "slug": "panda",
+      "frame": "blink",
+      "indices_offset": 40320,
+      "indices_bytes": 1440,
+      "indices_sha256": "6e97b6fc288e7cea5785637ca771b5da7014ebbcf4b3f05927df96a8cecfb0da",
+      "png": "09-panda-blink.png",
+      "png_sha256": "b9863112d07ba2d828799c3c32d2d8cc3226ead63d14bdf739b74317e82f4396",
+      "visible_pixels": 700,
+      "compiled_alpha_bbox": [
+        8,
+        1,
+        40,
+        29
+      ]
+    },
+    {
+      "source": "woodland-portraits-original.png",
+      "source_sha256": "0fa4783fc5ad205f7fb3d5d4f15d400c1010783ade8d11c38cc9c97bce96bf88",
+      "tile_box": [
+        732,
+        1109,
+        1068,
+        1404
+      ],
+      "nominal_tile_box": [
+        724,
+        1086,
+        1086,
+        1448
+      ],
+      "source_component_pixels": 77574,
+      "row": 3,
+      "column": 2,
+      "character": 9,
+      "slug": "panda",
+      "frame": "happy",
+      "indices_offset": 41760,
+      "indices_bytes": 1440,
+      "indices_sha256": "adefc02a52056136eab3e0a26a6ed3d82864b8aefcbf21c6bea539e33e8b0c12",
+      "png": "09-panda-happy.png",
+      "png_sha256": "b3f7b2d25b4f33c1dfa11255a9d6815733ffbd4a228b1ff65ab2bda13bb3cc43",
+      "visible_pixels": 701,
+      "compiled_alpha_bbox": [
+        8,
+        1,
+        40,
+        29
+      ]
+    },
+    {
+      "source": "classic-portraits-v2-original.png",
+      "source_sha256": "0a3f78f267e9d07cb0470f17d55897fb46549ff215902549efac7d31a88bfd99",
+      "tile_box": [
+        66,
+        782,
+        339,
+        1014
+      ],
+      "nominal_tile_box": [
+        0,
+        724,
+        362,
+        1086
+      ],
+      "source_component_pixels": 49662,
+      "row": 2,
+      "column": 0,
+      "character": 10,
+      "slug": "sleepy",
+      "frame": "idle",
+      "indices_offset": 43200,
+      "indices_bytes": 1440,
+      "indices_sha256": "a7fcc159d625becf571ed11c3f9251a2dd6a36047e7da1694abfdafd10243952",
+      "png": "10-sleepy-idle.png",
+      "png_sha256": "e9749ce2776201a921eec6313ef3ca4c3f7aa89df2bc0b2e526e67ecaac7b51f",
+      "visible_pixels": 723,
+      "compiled_alpha_bbox": [
+        8,
+        1,
+        40,
+        29
+      ]
+    },
+    {
+      "source": "classic-portraits-v2-original.png",
+      "source_sha256": "0a3f78f267e9d07cb0470f17d55897fb46549ff215902549efac7d31a88bfd99",
+      "tile_box": [
+        416,
+        782,
+        685,
+        1014
+      ],
+      "nominal_tile_box": [
+        362,
+        724,
+        724,
+        1086
+      ],
+      "source_component_pixels": 49172,
+      "row": 2,
+      "column": 1,
+      "character": 10,
+      "slug": "sleepy",
+      "frame": "blink",
+      "indices_offset": 44640,
+      "indices_bytes": 1440,
+      "indices_sha256": "f961096706ba94834e8813ce3afc9510463f4497db0c0fdfa9baf628253ef494",
+      "png": "10-sleepy-blink.png",
+      "png_sha256": "b1d0b5f3b7e388b2923ab4b96bd321bc6d6d4b828ad92dddfa7964f72bdb3cd7",
+      "visible_pixels": 721,
+      "compiled_alpha_bbox": [
+        8,
+        1,
+        40,
+        29
+      ]
+    },
+    {
+      "source": "classic-portraits-v2-original.png",
+      "source_sha256": "0a3f78f267e9d07cb0470f17d55897fb46549ff215902549efac7d31a88bfd99",
+      "tile_box": [
+        763,
+        782,
+        1030,
+        1014
+      ],
+      "nominal_tile_box": [
+        724,
+        724,
+        1086,
+        1086
+      ],
+      "source_component_pixels": 48816,
+      "row": 2,
+      "column": 2,
+      "character": 10,
+      "slug": "sleepy",
+      "frame": "happy",
+      "indices_offset": 46080,
+      "indices_bytes": 1440,
+      "indices_sha256": "e7b9c5741fd25fdd3f7415a79fce141730fac2af0b4ad9771bf3907ec1d2360f",
+      "png": "10-sleepy-happy.png",
+      "png_sha256": "64bfe62919bba4b477567ae1653509c3b0f0e1bc8e6d4ccb7263fb35aeb6d190",
+      "visible_pixels": 716,
+      "compiled_alpha_bbox": [
+        8,
+        1,
+        40,
+        29
+      ]
+    },
+    {
+      "source": "classic-portraits-v2-original.png",
+      "source_sha256": "0a3f78f267e9d07cb0470f17d55897fb46549ff215902549efac7d31a88bfd99",
+      "tile_box": [
+        70,
+        1092,
+        322,
+        1327
+      ],
+      "nominal_tile_box": [
+        0,
+        1086,
+        362,
+        1448
+      ],
+      "source_component_pixels": 40278,
+      "row": 3,
+      "column": 0,
+      "character": 11,
+      "slug": "wink",
+      "frame": "idle",
+      "indices_offset": 47520,
+      "indices_bytes": 1440,
+      "indices_sha256": "9c170a3c1bc90ed998b9d558155093a783d4502ea90821d06493c3509de6ba76",
+      "png": "11-wink-idle.png",
+      "png_sha256": "ad9b143235e3e30f7b8383478f19c2025d5e692b4e90a22c779d21b2a4a5253a",
+      "visible_pixels": 571,
+      "compiled_alpha_bbox": [
+        9,
+        1,
+        39,
+        29
+      ]
+    },
+    {
+      "source": "classic-portraits-v2-original.png",
+      "source_sha256": "0a3f78f267e9d07cb0470f17d55897fb46549ff215902549efac7d31a88bfd99",
+      "tile_box": [
+        417,
+        1092,
+        669,
+        1327
+      ],
+      "nominal_tile_box": [
+        362,
+        1086,
+        724,
+        1448
+      ],
+      "source_component_pixels": 40104,
+      "row": 3,
+      "column": 1,
+      "character": 11,
+      "slug": "wink",
+      "frame": "blink",
+      "indices_offset": 48960,
+      "indices_bytes": 1440,
+      "indices_sha256": "825d198d490fc00d7a3975c859e0bf2c02c197bcb2cfb18f96ec87a9c45a6978",
+      "png": "11-wink-blink.png",
+      "png_sha256": "c0415b0c1b1e22bc5622d670b49ad0dc0124c3dca9ee46615d568d0c02ffa280",
+      "visible_pixels": 569,
+      "compiled_alpha_bbox": [
+        9,
+        1,
+        39,
+        29
+      ]
+    },
+    {
+      "source": "classic-portraits-v2-original.png",
+      "source_sha256": "0a3f78f267e9d07cb0470f17d55897fb46549ff215902549efac7d31a88bfd99",
+      "tile_box": [
+        764,
+        1092,
+        1015,
+        1327
+      ],
+      "nominal_tile_box": [
+        724,
+        1086,
+        1086,
+        1448
+      ],
+      "source_component_pixels": 40079,
+      "row": 3,
+      "column": 2,
+      "character": 11,
+      "slug": "wink",
+      "frame": "happy",
+      "indices_offset": 50400,
+      "indices_bytes": 1440,
+      "indices_sha256": "18eecf3fad241db7ef53f1aff092d2410a40e7180f75a13899f752ee8d2799a5",
+      "png": "11-wink-happy.png",
+      "png_sha256": "870d11aed28cdfb4c3ec4f281178680360601c9d6dbd44d1ba7dfa43709b8941",
+      "visible_pixels": 568,
+      "compiled_alpha_bbox": [
+        9,
+        1,
+        39,
+        29
+      ]
+    }
+  ],
+  "missing_frames": [],
+  "complete": true,
+  "budget": {
+    "indices_bytes": 51840,
+    "palette_bytes": 768,
+    "arm_sprite_table_bytes": 432,
+    "complete_set_data_estimate_bytes": 53040
+  },
+  "verification": {
+    "png_pixel_checks": 51840,
+    "binary_readback": "PASS",
+    "rgb565_roundtrip": "PASS",
+    "cpp_initializer_readback": "PASS"
+  },
+  "firmware_sha256": {
+    "PortraitArt.h": "56f55db2e03b0c32b5dc435fb27bff9546f2ced51e719106fedeb5e275b76b94",
+    "PortraitArt.cpp": "a8b1f28cd6166016ebee14d3c09155fcd7252253087b0806ff3dc9f149c61c9a"
+  },
+  "contact_sheet_sha256": "cedb6abe400e83bfb440a056fac1ee0af7a05a1b4db1f816a61f3f08043bc540"
+}

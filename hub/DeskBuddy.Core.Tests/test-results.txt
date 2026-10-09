@@ -1,0 +1,17 @@
+HISTORICAL HOST-ONLY CHECKPOINT — not the Hub 1.7.1 result.
+Local machine paths and generated test IDs are redacted where present.
+Current release results: see docs/validation.md and evidence/stage-validation.json.
+
+PASS 224-byte codec, canonical defaults, independent profile arrays
+PASS strict flags, names, reserved bytes, supported actions
+PASS bounded byte framing and overflow recovery
+PASS request/reply grammar and legacy typed status
+PASS strict public JSON, checksum, atomic replace and failed write
+PASS HELLO/GET/STATUS, preview/save/readback/revert/select
+PASS ID matching, interleaved status, timeout, late ACK and cancellation
+PASS total request deadline includes blocked transport writes
+PASS disconnect cancels active/queued work and reconnect never replays
+PASS revision conflict, malformed ACK, bad readback and refused output
+PASS legacy status/explicit control without invented bank capabilities
+PASS unsupported protocol and malformed capabilities fail closed
+RESULT: 12 groups, 192 assertions, 0 failures. Host-only; no COM or hardware.

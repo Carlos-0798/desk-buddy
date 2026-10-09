@@ -1,0 +1,42 @@
+# Generated artifacts and machine state
+build/
+artifacts/
+**/bin/
+**/obj/
+.vs/
+.idea/
+__pycache__/
+*.pyc
+*.user
+*.suo
+*.exe
+*.dll
+*.pdb
+*.elf
+*.map
+*.uf2
+*.hex
+*.bin
+*.zip
+*.log
+*.tmp
+arduino-cli.yaml
+.env
+.env.*
+
+# This exact file is a synthetic 224-byte protocol fixture, NOT firmware.
+!hub/DeskBuddy.Core.Tests/default-bank.hex
+
+# Runtime data are never source inputs.
+evidence/*
+!evidence/summary.json
+!evidence/stage-validation.json
+!evidence/package-manifest.json
+!evidence/asset-provenance.json
+!evidence/assembly-2026-10-08.json
+captures/
+private*/
+**/private*/
+work/
+tools/
+outputs/

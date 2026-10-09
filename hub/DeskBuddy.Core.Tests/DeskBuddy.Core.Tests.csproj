@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup><OutputType>Exe</OutputType><TargetFramework>net10.0</TargetFramework><ImplicitUsings>enable</ImplicitUsings><Nullable>enable</Nullable><TreatWarningsAsErrors>true</TreatWarningsAsErrors></PropertyGroup>
+  <ItemGroup><ProjectReference Include="../DeskBuddy.Core/DeskBuddy.Core.csproj"/><None Include="default-bank.hex" CopyToOutputDirectory="PreserveNewest" /></ItemGroup>
+  <ItemGroup><Compile Include="../DeskBuddy.App/ConnectionNotices.cs" Link="AppSources/ConnectionNotices.cs" /></ItemGroup>
+  <ItemGroup>
+    <Compile Include="../DeskBuddy.App/BindingPresets.cs" Link="AppSources/BindingPresets.cs" />
+    <Compile Include="../DeskBuddy.App/OutputStatePresentation.cs" Link="AppSources/OutputStatePresentation.cs" />
+    <Compile Include="../DeskBuddy.App/DemoTransport.cs" Link="AppSources/DemoTransport.cs" />
+    <Compile Include="../DeskBuddy.App/DisplayTimeoutInput.cs" Link="AppSources/DisplayTimeoutInput.cs" />
+  </ItemGroup>
+</Project>

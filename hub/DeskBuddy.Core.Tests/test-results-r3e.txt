@@ -1,0 +1,37 @@
+HISTORICAL HOST-ONLY CHECKPOINT — not the Hub 1.7.1 result.
+Local machine paths and generated test IDs are redacted where present.
+Current release results: see docs/validation.md and evidence/stage-validation.json.
+
+PASS 224-byte codec, canonical defaults, independent profile arrays
+PASS strict flags, names, reserved bytes, supported actions
+PASS 96 appearance pairs across three home modes preserve wire and JSON IDs
+PASS strict HELLO capability counts and independent 4/4/1 defaults
+PASS bounded byte framing and overflow recovery
+PASS request/reply grammar and legacy typed status
+PASS strict public JSON, checksum, atomic replace and failed write
+PASS HELLO/GET/STATUS, preview/save/readback/revert/select
+PASS ID matching, interleaved status, timeout, late ACK and cancellation
+PASS total request deadline includes blocked transport writes
+PASS disconnect cancels active/queued work and reconnect never replays
+PASS revision conflict, malformed ACK, bad readback and refused output
+PASS legacy status/explicit control without invented bank capabilities
+PASS unsupported protocol and malformed capabilities fail closed
+PASS old-peer whole-bank appearance guard and capability reread on reconnect
+PASS animation capability, strict actions and coherent bounded telemetry
+PASS animation old-peer guard, parameters and capability reread
+PASS temporary animation ACK/status, expiry, cancellation and no bank writes
+PASS animation errors, malformed readback, deadline and disconnect do not replay
+PASS BLE capability, management grant/lease grammar and USB-only permission
+PASS GATT 20-byte request fragments and bounded 4096-byte notification lines
+PASS GATT cancellation, timeout, disconnect and stale generations fail closed
+PASS full Core protocol over fake GATT, long SAVE, readback and LOCKED
+PASS BLE self-revoke ACK and CCCD failure paths never imply unconfirmed revocation
+PASS one cached service fallback, strict UUID selection, shared deadline and reference cleanup
+PASS serial close deadline retains resource ownership until blocked open/dispose really exits
+PASS failed Core connection reports pending serial cleanup without replay or false release
+PASS poll and late disconnect preserve bilingual BLE reauthorization guidance
+PASS explicit preserve-output and physical-feedback capabilities, strict old-peer defaults
+PASS old/new ON/OFF configuration and control semantics never issue hidden re-arm
+PASS animated ON, physical OFF and delayed cancellation use actual readback
+PASS preservation failure and reconnect clear capabilities without replay
+RESULT: 32 groups, 1965 assertions, 0 failures. Host-only; no COM or hardware.

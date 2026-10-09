@@ -1,0 +1,349 @@
+{
+  "version": "1.7.1",
+  "scope": "Hub1.7.1 production source unchanged; four documentation/history files adapted for a portable private source candidate.",
+  "files": [
+    {
+      "path": "hub/build.ps1",
+      "sha256": "8947f1d4e6ff222b4a42a6aa377549fd12e8128a4cec12f1f2ac44ca1503f701",
+      "bytes": 2731
+    },
+    {
+      "path": "hub/DeskBuddy.App/AnimationPlayback.cs",
+      "sha256": "43897b8704d384786a393148058fdc9cec40dfc574f336346c201562724d9a5b",
+      "bytes": 2526
+    },
+    {
+      "path": "hub/DeskBuddy.App/AnimationPreviewPage.cs",
+      "sha256": "a90ec1bbcafa35b75c3d49e74415d2a963f011295cd9af840a84b593ba797e93",
+      "bytes": 12190
+    },
+    {
+      "path": "hub/DeskBuddy.App/AnimationSmoke.cs",
+      "sha256": "01707f43c6cebb32c35706c96e8355030251ff9e1958c87d6ba0e2086bd71ed6",
+      "bytes": 15442
+    },
+    {
+      "path": "hub/DeskBuddy.App/App.cs",
+      "sha256": "ef4d35bdbae726d58ad7d057bf8483f9e91526ff9ce52f6be8ab33fcb5e322a3",
+      "bytes": 1867
+    },
+    {
+      "path": "hub/DeskBuddy.App/app.manifest",
+      "sha256": "39111b379568e3fcb315237b34e62ae05c2c6528f7b237ed15656637f35f878f",
+      "bytes": 589
+    },
+    {
+      "path": "hub/DeskBuddy.App/AppearancePage.cs",
+      "sha256": "5d8e598dc3c0da7228d57a936ba3534e132e8991e2820ec7bc2a88f3cbc7b0b6",
+      "bytes": 9025
+    },
+    {
+      "path": "hub/DeskBuddy.App/BindingPresets.cs",
+      "sha256": "962dd5de36657cf35df478fef5dc0527a36e7b4915b2ed6aa6c82af09d17da6c",
+      "bytes": 6928
+    },
+    {
+      "path": "hub/DeskBuddy.App/CompanionInteractionDemo.cs",
+      "sha256": "8ee8c5438202454439eeccd8c361b8a376bb72cc5efe4b637888e13a1e4a2b34",
+      "bytes": 1129
+    },
+    {
+      "path": "hub/DeskBuddy.App/CompanionPortraits.cs",
+      "sha256": "e04a52ae472f8e482233d17302bfb3e16fdb43fc5ca8b55a10244e341e30c566",
+      "bytes": 2581
+    },
+    {
+      "path": "hub/DeskBuddy.App/CompanionSprites.cs",
+      "sha256": "c6a6ade8e4fecc4d22f751144ed2d0802c79d8ff9170cc659be8afcd56db1f54",
+      "bytes": 2902
+    },
+    {
+      "path": "hub/DeskBuddy.App/ConnectionNotices.cs",
+      "sha256": "c9c9f444b0fd39c43ace5e0d999f3469447544d2d70dc936ca9d0d39a9f39f1a",
+      "bytes": 3866
+    },
+    {
+      "path": "hub/DeskBuddy.App/ControlStyles.cs",
+      "sha256": "49fc43448885b5c1420c59de4b12138c2b9372fdaa8c1ed17d95042914132350",
+      "bytes": 10128
+    },
+    {
+      "path": "hub/DeskBuddy.App/ControlStyleSmoke.cs",
+      "sha256": "f1e2bb0ac06c9dac601b58fff608423e6571c0c20f560290e2465f92cfd66c67",
+      "bytes": 8228
+    },
+    {
+      "path": "hub/DeskBuddy.App/CustomDisplaySmoke.cs",
+      "sha256": "e6b923448b2c93b8e52ff5a01d86052b56a2705026307baf9e323eb546a9fc84",
+      "bytes": 11617
+    },
+    {
+      "path": "hub/DeskBuddy.App/DemoTransport.cs",
+      "sha256": "ed96170e37e4edddbb4935496284a42e23faea17225c5ef80b1b3696ef2093af",
+      "bytes": 17695
+    },
+    {
+      "path": "hub/DeskBuddy.App/DeskBuddy.App.csproj",
+      "sha256": "39ecf5718a8b32faee03ae7a49e8104d2881ae609c658f48d66ff98a93352f2d",
+      "bytes": 1743
+    },
+    {
+      "path": "hub/DeskBuddy.App/DevicePreview.cs",
+      "sha256": "5eff80e032d9bcc1a15bb299127d07948a7f549d39f66af2079f42c87a311dec",
+      "bytes": 13974
+    },
+    {
+      "path": "hub/DeskBuddy.App/DisplaySettingsCard.cs",
+      "sha256": "91d756baa8857a260a669dcb8699f490b64010f5d0fa4f526cc89520aa3ad4c2",
+      "bytes": 11423
+    },
+    {
+      "path": "hub/DeskBuddy.App/DisplaySmoke.cs",
+      "sha256": "05cb6be3803db71c4235f4ac3b68bfa82c4bee478338cf47f33807ec673732dc",
+      "bytes": 6249
+    },
+    {
+      "path": "hub/DeskBuddy.App/DisplayTimeoutInput.cs",
+      "sha256": "9a0e688546c401fae884e71516216d45e8c28eb3d0c8a1a291598a18247ae4f9",
+      "bytes": 488
+    },
+    {
+      "path": "hub/DeskBuddy.App/HotkeySmoke.cs",
+      "sha256": "29d30f96b560073f77668bf25ccf162d29ddcc484ad987035154d97a2dc5bcaa",
+      "bytes": 5294
+    },
+    {
+      "path": "hub/DeskBuddy.App/InteractionSmoke.cs",
+      "sha256": "cf456e2939e88fcd7fe987070ac742728c42f74f59f99b943451ce3f1d70a45e",
+      "bytes": 6839
+    },
+    {
+      "path": "hub/DeskBuddy.App/MainWindow.cs",
+      "sha256": "06ed37d7a3f69379e46b2215dfdebda3c5c9e22364338061b0b3552c730c77dd",
+      "bytes": 52459
+    },
+    {
+      "path": "hub/DeskBuddy.App/ManagementConnections.cs",
+      "sha256": "ec7accc6acc8116e0a87d24684d5a9d7cc4b503ccf53aafb9fb1842dc8e525c3",
+      "bytes": 8955
+    },
+    {
+      "path": "hub/DeskBuddy.App/OutputStatePresentation.cs",
+      "sha256": "59bb425c26c432e0f95e59ef80ea3d48f99d6ef13308cfa1609aabf6f32fae8a",
+      "bytes": 2443
+    },
+    {
+      "path": "hub/DeskBuddy.App/README-zh-CN.txt",
+      "sha256": "1a57595dd2e8af33c25db5416ac638726df4deaecd985a346df3609b7beb96ef",
+      "bytes": 11089
+    },
+    {
+      "path": "hub/DeskBuddy.App/SerialLineTransport.cs",
+      "sha256": "0a1d2a49495dac124b20fd4cd45c97263c89db16a13b55eae043b14a04a32d45",
+      "bytes": 6391
+    },
+    {
+      "path": "hub/DeskBuddy.App/Smoke.cs",
+      "sha256": "7434853a23b59fa45575adecb31375160ea5c6b1559dcabebb5a748e9fe4fb35",
+      "bytes": 32480
+    },
+    {
+      "path": "hub/DeskBuddy.App/WindowsBleGatt.cs",
+      "sha256": "800f354c6380b89f4730cc3e217067d5676b74d0aa5836bb5e9ced14a042aede",
+      "bytes": 13089
+    },
+    {
+      "path": "hub/DeskBuddy.App/WorkspacePersistence.cs",
+      "sha256": "d827341c6af58e26b1b62d37e95f425be100f8f85b00f2473611844c86d1d263",
+      "bytes": 5960
+    },
+    {
+      "path": "hub/DeskBuddy.App/WorkspaceSmoke.cs",
+      "sha256": "95a6f8e2619b971cf2338507a9f1dc549152a25bef9b6da57baceb84049ec86c",
+      "bytes": 11058
+    },
+    {
+      "path": "hub/DeskBuddy.Core.Tests/AnimationTests.cs",
+      "sha256": "534ffba8ccd66ab8a792680c7d4952fd1ab894be59d801d74e943811c2077e3e",
+      "bytes": 18399
+    },
+    {
+      "path": "hub/DeskBuddy.Core.Tests/BindingPresetTests.cs",
+      "sha256": "2ece430d06efafbbf6b391c6a40f287db6fd9eb76f2680c8a09188f482e48722",
+      "bytes": 4700
+    },
+    {
+      "path": "hub/DeskBuddy.Core.Tests/BleTests.cs",
+      "sha256": "1ee39b878556e30976aafc4591eb38e03ce0b8dec1581d55ef0c87e9dc539a40",
+      "bytes": 23691
+    },
+    {
+      "path": "hub/DeskBuddy.Core.Tests/CustomDisplayTests.cs",
+      "sha256": "87559f75675df182b91ba01255af99d98fe3143eb8be6db2819f2546770e7e9b",
+      "bytes": 6258
+    },
+    {
+      "path": "hub/DeskBuddy.Core.Tests/default-bank.hex",
+      "sha256": "89bf44af788450788812dfcfcdf276575382c196cca34c2dc4d6e05218629410",
+      "bytes": 449
+    },
+    {
+      "path": "hub/DeskBuddy.Core.Tests/DeskBuddy.Core.Tests.csproj",
+      "sha256": "457c66a034d6871c281bf126c81d1be291cac315a3212d87809991d0e5362cc2",
+      "bytes": 1009
+    },
+    {
+      "path": "hub/DeskBuddy.Core.Tests/DisplayTests.cs",
+      "sha256": "feb4f54f3416b0f6c23c4044e3ae50beafca2ec97351b05ac3c2fb2aa5290b46",
+      "bytes": 17362
+    },
+    {
+      "path": "hub/DeskBuddy.Core.Tests/GattDiscoveryTests.cs",
+      "sha256": "5041daa9b7d520aedb96cadc68cb02270bc7be0dbe39deca144e6f2e7e3e2bbf",
+      "bytes": 5796
+    },
+    {
+      "path": "hub/DeskBuddy.Core.Tests/OutputPreservationTests.cs",
+      "sha256": "dea99b5c55f28c7590548839f428e471869eb575b9678b4ea5f0cecaa105432d",
+      "bytes": 15913
+    },
+    {
+      "path": "hub/DeskBuddy.Core.Tests/PageOutputTests.cs",
+      "sha256": "1472d5e50f39a3d8ad400396aeb3100deb8e0c5c8f3b5be21f8329261a2fd9d6",
+      "bytes": 13355
+    },
+    {
+      "path": "hub/DeskBuddy.Core.Tests/Program.cs",
+      "sha256": "d39f0cb8e5be8b4f38c35a97d16476b3f7e076afa6319edf8b390e00e9b4b2d0",
+      "bytes": 52574
+    },
+    {
+      "path": "hub/DeskBuddy.Core.Tests/README.md",
+      "sha256": "a1728e45c541cf3fd90a12179710926d3481c7ef27503675c2d9ef371bc4247e",
+      "bytes": 4424,
+      "upstream_sha256": "e63befda4e40aef9d0dcba33c4e6f27701f6d2da990b93c11ee9382cfd57628b",
+      "packaging_change": "Historical text label / path redaction, or portable test README instructions; no executable source change."
+    },
+    {
+      "path": "hub/DeskBuddy.Core.Tests/SerialLifecycleTests.cs",
+      "sha256": "17e8136ff8d8f985096a14ffea5792114c2a1c1cf809b85c2102346af79df677",
+      "bytes": 10146
+    },
+    {
+      "path": "hub/DeskBuddy.Core.Tests/test-results-r3e-attempt2-failure.txt",
+      "sha256": "122560bff260162d229767800d307c88136ae5998271a42314f9987b2ec10cbe",
+      "bytes": 3227,
+      "upstream_sha256": "9b4e943107553965e231051acef9f6dfb7f98cc0d4f6493ed380c0ed3aa2fc04",
+      "packaging_change": "Historical text label / path redaction, or portable test README instructions; no executable source change."
+    },
+    {
+      "path": "hub/DeskBuddy.Core.Tests/test-results-r3e.txt",
+      "sha256": "bf398abe30358b4cf9279640a8c5cb46e4eb71fe362a9c3d3416a93e4848017e",
+      "bytes": 2681,
+      "upstream_sha256": "c5047198327168e9e0f11c97d06cbea4ef6f4a93fe227ea87976e2d55cad34c0",
+      "packaging_change": "Historical text label / path redaction, or portable test README instructions; no executable source change."
+    },
+    {
+      "path": "hub/DeskBuddy.Core.Tests/test-results.txt",
+      "sha256": "9a545718e54f6ecee8e810b6085e46cded92e2a106f40c12244eae9d894e5014",
+      "bytes": 1079,
+      "upstream_sha256": "067dd9a6b4de4cc4e835bfe2539b48f6b4c77f1ad6863fced2b7ba871537a08c",
+      "packaging_change": "Historical text label / path redaction, or portable test README instructions; no executable source change."
+    },
+    {
+      "path": "hub/DeskBuddy.Core.Tests/WorkspaceStoreTests.cs",
+      "sha256": "dbf5a91dc14c2b59ca6d4ebd12cd44bad82af7e87503f20e315d3a3951f42b6e",
+      "bytes": 7850
+    },
+    {
+      "path": "hub/DeskBuddy.Core/API.md",
+      "sha256": "c7e5f0b8597895b1dda5a409523f1dee913ce0050b9de22d183a4336790586db",
+      "bytes": 30336
+    },
+    {
+      "path": "hub/DeskBuddy.Core/BleLineTransport.cs",
+      "sha256": "4d0e88365691a5f576cf62a9a97aafaf832de0a82f14ab37059ae67e3edf95f0",
+      "bytes": 9351
+    },
+    {
+      "path": "hub/DeskBuddy.Core/Configuration.cs",
+      "sha256": "a7b47deedc10e53afea1cdb5f968615b4b3da66add2ec493f9a6ce15d9e3741d",
+      "bytes": 7851
+    },
+    {
+      "path": "hub/DeskBuddy.Core/DeskBuddy.Core.csproj",
+      "sha256": "918a8e18e79ad33d0bfdea54a00ff15fb3a10ed7cca073667476922c6674fbcd",
+      "bytes": 238
+    },
+    {
+      "path": "hub/DeskBuddy.Core/DisplaySettings.cs",
+      "sha256": "b726688b44500f575d426c1d3628d5b5e29e7bc5e41644917d5abb234b7732ca",
+      "bytes": 1572
+    },
+    {
+      "path": "hub/DeskBuddy.Core/GattServiceDiscovery.cs",
+      "sha256": "837f219e1968f1810b94cbf179dbc7fc7686547c09a6ac0bee60ff1a4b1636c6",
+      "bytes": 2649
+    },
+    {
+      "path": "hub/DeskBuddy.Core/HubClient.cs",
+      "sha256": "c26cf7f65ad08d478f0e3a5aec24dbb1edb9ae8dc5e4744b69908dbd02548aa9",
+      "bytes": 30956
+    },
+    {
+      "path": "hub/DeskBuddy.Core/HubClient.Display.cs",
+      "sha256": "4b4831f8bf270e32370945f7889902c086ee974080aef440b52eec31f377a8df",
+      "bytes": 4422
+    },
+    {
+      "path": "hub/DeskBuddy.Core/HubWorkspaceStore.cs",
+      "sha256": "8ce9888c4ef955d8dc63b8df83c58ddeee5f7640c93576eb39b149501343fd26",
+      "bytes": 9534
+    },
+    {
+      "path": "hub/DeskBuddy.Core/LocalConfigurationStore.cs",
+      "sha256": "7761426c48c60848ecdfc26533624c02c6251c96d9a549b5a7cdf907fc541350",
+      "bytes": 4558
+    },
+    {
+      "path": "hub/DeskBuddy.Core/Protocol.cs",
+      "sha256": "d29da8c0316f01e742f41a58d4f95badad0128bd0a46380dc9fe344e9590463e",
+      "bytes": 21738
+    },
+    {
+      "path": "hub/DeskBuddy.Core/SerialWorkerLifetime.cs",
+      "sha256": "4a5e62a8a383c161f87c90419cb558a9cb618442d50f3fdaf5d7af1452d78bfa",
+      "bytes": 4012
+    },
+    {
+      "path": "hub/PROTOCOL.md",
+      "sha256": "c9ae8fc04c4e3577281b9ae77e96c9a898d281f08f571830514bb2ef24b40877",
+      "bytes": 20456
+    },
+    {
+      "path": "hub/README-zh-CN.txt",
+      "sha256": "490fadc8dd1a08a9a1b9f9d768f24a75e655815306e0a32570ed8917d615b9c0",
+      "bytes": 19292
+    },
+    {
+      "path": "hub/sign-release.ps1",
+      "sha256": "df08c610727051245fae1f6f2ac4f403c53583e25ed9e48a7847f7ef619527c9",
+      "bytes": 10488
+    },
+    {
+      "path": "hub/verify-release.ps1",
+      "sha256": "4c7810146aef4b95293b248b8f67f08ca33f757bb4789d9e5fb1a67f7958c232",
+      "bytes": 10590
+    }
+  ],
+  "unchanged_sprite_manifests": [
+    {
+      "path": "assets/companions/r2/compiled/manifest.json",
+      "sha256": "53ee5e4704c20358df32be561dbe72eb3a0a7310725b3ca43fbadf22495aed99"
+    },
+    {
+      "path": "assets/companions/r3/compiled/manifest.json",
+      "sha256": "5d60ff4659b742819e63c525a0f79ecb3cafb66ee8647230ff0c0861ee9b92eb"
+    }
+  ]
+}
